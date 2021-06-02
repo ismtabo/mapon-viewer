@@ -29,6 +29,13 @@ else
 	override ENVIRONMENT := $(patsubst pipeline-%,%,$(MAKECMDGOALS))
 endif
 
+# Include envfile settings
+ifeq (,$(wildcard ./.env))
+else
+	include .env
+	export $(shell sed 's/=.*//' .env)
+endif
+
 # Shell settings
 SHELL := bash
 .ONESHELL:
@@ -91,6 +98,7 @@ build-config:
 build-bin:
 	$(info) 'Building version: $(BUILD_VERSION)'
 	mkdir -p build/bin
+	cp -rf client/ build/bin/
 	go build -v -ldflags='$(LDFLAGS)' -o build/bin ./...
 
 .PHONY: build-test-deps
@@ -157,7 +165,7 @@ deploy:
 .PHONY: run
 run:
 	$(info) 'Launching the service'
-	build/bin/ingestion_agent
+	build/bin/server
 
 .PHONY: pipeline-pull
 pipeline-pull: build test-acceptance

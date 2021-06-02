@@ -22,4 +22,14 @@ services:
       args:
         PRODUCT_VERSION: ${PRODUCT_VERSION:-0.0}
         PRODUCT_REVISION: ${PRODUCT_REVISION:-0}
+    environment: 
+      MONGO_HOST: mongo:27017
+      MAPON_KEY: ${MAPON_KEY}
     restart: always
+    depends_on: 
+      - mongo
+    
+  mongo:
+    image: mongo:4.4.4
+    environment: 
+      MONGO_INITDB_DATABASE: mapon

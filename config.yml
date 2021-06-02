@@ -3,3 +3,17 @@ server:
   port: 8080
 log:
   level: DEBUG
+mongo:
+  host: localhost:27017
+  database: mapon
+  collections:
+    users: users
+session:
+  cookie: mapon-session
+  expires: 3600
+mapon:
+  url: https://mapon.com/api/v1
+  key:
+  endpoints:
+    unit: unit/list.json
+    route: route/list.json

@@ -1,12 +1,24 @@
 package main
 
 import (
+	"context"
+	"fmt"
 	"net/http"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/ismtabo/mapon-viewer/pkg/cfg"
+	"github.com/ismtabo/mapon-viewer/pkg/controller"
+	"github.com/ismtabo/mapon-viewer/pkg/repository"
+	"github.com/ismtabo/mapon-viewer/pkg/routes"
+	"github.com/ismtabo/mapon-viewer/pkg/service"
+	"github.com/ismtabo/mapon-viewer/pkg/template"
+	"github.com/kataras/go-sessions/v3"
 	"github.com/rs/zerolog"
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
 func main() {
@@ -19,11 +31,23 @@ func main() {
 	if err := configLogger(&config); err != nil {
 		log.Fatal().Msgf("Error configuring the logger. %s", err)
 	}
-
-	http.Handle("/", http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {
-		rw.Write([]byte("Hello World!"))
-	}))
-	if err := http.ListenAndServe(":8080", nil); err != nil {
+	ctx := context.Background()
+	connection := getMongoConnection(ctx, &config, log)
+	database := connection.Database(config.Mongo.Database)
+	collection := database.Collection(config.Mongo.Collections.Users)
+	ssns := getSessionsFactory(&config)
+	secSvc := service.NewSecurityService(ssns)
+	userRepo := repository.NewMongoUserRepository(collection)
+	userSvc := service.NewUserService(userRepo)
+	userCtrl := controller.NewUserController(userSvc, secSvc)
+	tmplMngr := template.NewTemplateManager()
+	pagesCtrl := controller.NewPagesController(ssns, tmplMngr)
+	maponRepo := repository.NewMaponRespository(&config.MaponConfig)
+	maponCtrl := controller.NewMaponController(maponRepo)
+	routes := routes.NewRoutes(userCtrl, pagesCtrl, maponCtrl, secSvc, log)
+	routes.AddRoutes()
+	addr := fmt.Sprintf("%s:%s", config.Server.Host, config.Server.Port)
+	if err := http.ListenAndServe(addr, routes); err != nil {
 		log.Fatal().Msg("Error starting server")
 	}
 }
@@ -44,4 +68,30 @@ func configLogger(config *Config) error {
 	}
 	zerolog.SetGlobalLevel(lvl)
 	return nil
+}
+
+func getMongoConnection(ctx context.Context, config *Config, log *zerolog.Logger) *mongo.Client {
+	clientOpts := options.Client()
+	clientOpts.SetHosts([]string{config.Mongo.Host})
+	if config.Mongo.User != "" {
+		clientOpts.SetAuth(options.Credential{
+			Username: config.Mongo.User,
+			Password: string(config.Mongo.Password),
+		})
+	}
+	conn, err := mongo.Connect(ctx, clientOpts)
+	if err != nil {
+		log.Fatal().Err(err).Msg("Error connecting mongo server.")
+	}
+	if err := conn.Ping(ctx, readpref.Primary()); err != nil {
+		log.Fatal().Err(err).Msg("Error connecting to mongo.")
+	}
+	return conn
+}
+
+func getSessionsFactory(config *Config) *sessions.Sessions {
+	return sessions.New(sessions.Config{
+		Cookie:  config.Session.Cookie,
+		Expires: time.Duration(config.Session.Expires) * time.Second,
+	})
 }

@@ -1,0 +1,5434 @@
+{
+  "data": {
+    "units": [
+      {
+        "unit_id": 39537,
+        "routes": [
+          {
+            "type": "stop",
+            "route_id": 2109984445,
+            "start": {
+              "time": "2021-05-01T13:49:15Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18296,
+              "lng": 24.30074
+            },
+            "end": {
+              "time": "2021-05-01T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2110294004,
+            "start": {
+              "time": "2021-05-01T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18296,
+              "lng": 24.30074
+            },
+            "end": {
+              "time": "2021-05-02T12:02:36Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2110826637,
+            "start": {
+              "time": "2021-05-02T12:02:36Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18303,
+              "lng": 24.30095
+            },
+            "avg_speed": 40,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-02T12:15:29Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14162,
+              "lng": 24.2947
+            },
+            "distance": 8745
+          },
+          {
+            "type": "stop",
+            "route_id": 2110836073,
+            "start": {
+              "time": "2021-05-02T12:15:29Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14162,
+              "lng": 24.2947
+            },
+            "end": {
+              "time": "2021-05-02T14:09:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2110925381,
+            "start": {
+              "time": "2021-05-02T14:09:23Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14158,
+              "lng": 24.2947
+            },
+            "avg_speed": 32,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-02T14:23:54Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18281,
+              "lng": 24.29982
+            },
+            "distance": 7931
+          },
+          {
+            "type": "stop",
+            "route_id": 2110933699,
+            "start": {
+              "time": "2021-05-02T14:23:54Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18281,
+              "lng": 24.29982
+            },
+            "end": {
+              "time": "2021-05-02T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2111206497,
+            "start": {
+              "time": "2021-05-02T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18281,
+              "lng": 24.29982
+            },
+            "end": {
+              "time": "2021-05-03T05:01:56Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2111588753,
+            "start": {
+              "time": "2021-05-03T05:01:56Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18283,
+              "lng": 24.29982
+            },
+            "avg_speed": 34,
+            "max_speed": 79,
+            "end": {
+              "time": "2021-05-03T05:11:08Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18954,
+              "lng": 24.3523
+            },
+            "distance": 5349
+          },
+          {
+            "type": "stop",
+            "route_id": 2111611219,
+            "start": {
+              "time": "2021-05-03T05:11:08Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18954,
+              "lng": 24.3523
+            },
+            "end": {
+              "time": "2021-05-03T05:18:19Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2111621519,
+            "start": {
+              "time": "2021-05-03T05:18:19Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18959,
+              "lng": 24.35237
+            },
+            "avg_speed": 4,
+            "max_speed": 11,
+            "end": {
+              "time": "2021-05-03T05:20:17Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18943,
+              "lng": 24.35239
+            },
+            "distance": 163
+          },
+          {
+            "type": "stop",
+            "route_id": 2111624131,
+            "start": {
+              "time": "2021-05-03T05:20:17Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18943,
+              "lng": 24.35239
+            },
+            "end": {
+              "time": "2021-05-03T07:44:27Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2111971939,
+            "start": {
+              "time": "2021-05-03T07:44:27Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.1895,
+              "lng": 24.35243
+            },
+            "avg_speed": 1,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-03T07:49:33Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18945,
+              "lng": 24.35246
+            },
+            "distance": 99
+          },
+          {
+            "type": "stop",
+            "route_id": 2111971940,
+            "start": {
+              "time": "2021-05-03T07:49:33Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18945,
+              "lng": 24.35246
+            },
+            "end": {
+              "time": "2021-05-03T07:59:43Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2111997325,
+            "start": {
+              "time": "2021-05-03T07:59:43Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18936,
+              "lng": 24.35242
+            },
+            "avg_speed": 129,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-03T07:59:44Z",
+              "address": "ul. \"Spartak\" 282, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.1895,
+              "lng": 24.35266
+            },
+            "distance": 36
+          },
+          {
+            "type": "stop",
+            "route_id": 2111997327,
+            "start": {
+              "time": "2021-05-03T07:59:44Z",
+              "address": "ul. \"Spartak\" 282, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.1895,
+              "lng": 24.35266
+            },
+            "end": {
+              "time": "2021-05-03T09:26:35Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2112201707,
+            "start": {
+              "time": "2021-05-03T09:26:35Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.1894,
+              "lng": 24.3525
+            },
+            "avg_speed": 11,
+            "max_speed": 14,
+            "end": {
+              "time": "2021-05-03T09:27:16Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18928,
+              "lng": 24.35254
+            },
+            "distance": 129
+          },
+          {
+            "type": "stop",
+            "route_id": 2112203595,
+            "start": {
+              "time": "2021-05-03T09:27:16Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18928,
+              "lng": 24.35254
+            },
+            "end": {
+              "time": "2021-05-03T09:58:21Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2112306410,
+            "start": {
+              "time": "2021-05-03T09:58:21Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18914,
+              "lng": 24.3526
+            },
+            "avg_speed": 0,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-03T10:06:23Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18868,
+              "lng": 24.35258
+            },
+            "distance": 130
+          },
+          {
+            "type": "stop",
+            "route_id": 2112306411,
+            "start": {
+              "time": "2021-05-03T10:06:23Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18868,
+              "lng": 24.35258
+            },
+            "end": {
+              "time": "2021-05-03T10:20:43Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2112336056,
+            "start": {
+              "time": "2021-05-03T10:20:43Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18872,
+              "lng": 24.35257
+            },
+            "avg_speed": 32,
+            "max_speed": 82,
+            "end": {
+              "time": "2021-05-03T10:31:34Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18195,
+              "lng": 24.30042
+            },
+            "distance": 5949
+          },
+          {
+            "type": "stop",
+            "route_id": 2112361084,
+            "start": {
+              "time": "2021-05-03T10:31:34Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18195,
+              "lng": 24.30042
+            },
+            "end": {
+              "time": "2021-05-03T12:21:16Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2112616887,
+            "start": {
+              "time": "2021-05-03T12:21:16Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18195,
+              "lng": 24.30041
+            },
+            "avg_speed": 3,
+            "max_speed": 12,
+            "end": {
+              "time": "2021-05-03T12:26:45Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18207,
+              "lng": 24.30024
+            },
+            "distance": 347
+          },
+          {
+            "type": "stop",
+            "route_id": 2112633750,
+            "start": {
+              "time": "2021-05-03T12:26:45Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18207,
+              "lng": 24.30024
+            },
+            "end": {
+              "time": "2021-05-03T12:34:16Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2112644684,
+            "start": {
+              "time": "2021-05-03T12:34:16Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18207,
+              "lng": 24.30024
+            },
+            "avg_speed": 5,
+            "max_speed": 7,
+            "end": {
+              "time": "2021-05-03T12:34:58Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18198,
+              "lng": 24.30042
+            },
+            "distance": 62
+          },
+          {
+            "type": "stop",
+            "route_id": 2112645937,
+            "start": {
+              "time": "2021-05-03T12:34:58Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18198,
+              "lng": 24.30042
+            },
+            "end": {
+              "time": "2021-05-03T12:46:21Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2112671903,
+            "start": {
+              "time": "2021-05-03T12:46:21Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18198,
+              "lng": 24.30046
+            },
+            "avg_speed": 6,
+            "max_speed": 22,
+            "end": {
+              "time": "2021-05-03T12:51:33Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18229,
+              "lng": 24.30068
+            },
+            "distance": 591
+          },
+          {
+            "type": "stop",
+            "route_id": 2112681917,
+            "start": {
+              "time": "2021-05-03T12:51:33Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18229,
+              "lng": 24.30068
+            },
+            "end": {
+              "time": "2021-05-03T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2113385226,
+            "start": {
+              "time": "2021-05-03T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18229,
+              "lng": 24.30068
+            },
+            "end": {
+              "time": "2021-05-04T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2115755785,
+            "start": {
+              "time": "2021-05-04T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18229,
+              "lng": 24.30068
+            },
+            "end": {
+              "time": "2021-05-05T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2118341305,
+            "start": {
+              "time": "2021-05-05T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18229,
+              "lng": 24.30068
+            },
+            "end": {
+              "time": "2021-05-06T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2120956073,
+            "start": {
+              "time": "2021-05-06T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18229,
+              "lng": 24.30068
+            },
+            "end": {
+              "time": "2021-05-07T10:51:06Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2122463084,
+            "start": {
+              "time": "2021-05-07T10:51:06Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18195,
+              "lng": 24.30065
+            },
+            "avg_speed": 14,
+            "max_speed": 51,
+            "end": {
+              "time": "2021-05-07T10:51:49Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1829,
+              "lng": 24.3007
+            },
+            "distance": 169
+          },
+          {
+            "type": "stop",
+            "route_id": 2122473099,
+            "start": {
+              "time": "2021-05-07T10:51:49Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1829,
+              "lng": 24.3007
+            },
+            "end": {
+              "time": "2021-05-07T10:58:18Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2122485621,
+            "start": {
+              "time": "2021-05-07T10:58:18Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18291,
+              "lng": 24.30076
+            },
+            "avg_speed": 10,
+            "max_speed": 14,
+            "end": {
+              "time": "2021-05-07T10:59:33Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "distance": 220
+          },
+          {
+            "type": "stop",
+            "route_id": 2122487587,
+            "start": {
+              "time": "2021-05-07T10:59:33Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-07T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2123589881,
+            "start": {
+              "time": "2021-05-07T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-08T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2124971544,
+            "start": {
+              "time": "2021-05-08T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-09T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2125976211,
+            "start": {
+              "time": "2021-05-09T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-10T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2128530172,
+            "start": {
+              "time": "2021-05-10T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-11T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2131187553,
+            "start": {
+              "time": "2021-05-11T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-12T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2133838015,
+            "start": {
+              "time": "2021-05-12T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-13T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2135739987,
+            "start": {
+              "time": "2021-05-13T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-14T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2138135592,
+            "start": {
+              "time": "2021-05-14T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-15T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2139525092,
+            "start": {
+              "time": "2021-05-15T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-16T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2140486390,
+            "start": {
+              "time": "2021-05-16T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-17T10:13:39Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2141804764,
+            "start": {
+              "time": "2021-05-17T10:13:39Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18206,
+              "lng": 24.30062
+            },
+            "avg_speed": 22,
+            "max_speed": 78,
+            "end": {
+              "time": "2021-05-17T10:25:55Z",
+              "address": "II-37 20, 4409 Pazardzhik, Bulgaria",
+              "lat": 42.16045,
+              "lng": 24.31435
+            },
+            "distance": 4503
+          },
+          {
+            "type": "stop",
+            "route_id": 2141833497,
+            "start": {
+              "time": "2021-05-17T10:25:55Z",
+              "address": "II-37 20, 4409 Pazardzhik, Bulgaria",
+              "lat": 42.16045,
+              "lng": 24.31435
+            },
+            "end": {
+              "time": "2021-05-17T10:40:54Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2141882233,
+            "start": {
+              "time": "2021-05-17T10:40:54Z",
+              "address": "II-37 65, 4409 Pazardzhik, Bulgaria",
+              "lat": 42.16027,
+              "lng": 24.31426
+            },
+            "avg_speed": 30,
+            "max_speed": 69,
+            "end": {
+              "time": "2021-05-17T10:57:42Z",
+              "address": "Unnamed Road, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18908,
+              "lng": 24.35435
+            },
+            "distance": 8572
+          },
+          {
+            "type": "stop",
+            "route_id": 2141925750,
+            "start": {
+              "time": "2021-05-17T10:57:42Z",
+              "address": "Unnamed Road, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18908,
+              "lng": 24.35435
+            },
+            "end": {
+              "time": "2021-05-17T11:02:28Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2141932281,
+            "start": {
+              "time": "2021-05-17T11:02:28Z",
+              "address": "Unnamed Road, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18902,
+              "lng": 24.35438
+            },
+            "avg_speed": 9,
+            "max_speed": 14,
+            "end": {
+              "time": "2021-05-17T11:03:23Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18919,
+              "lng": 24.35365
+            },
+            "distance": 139
+          },
+          {
+            "type": "stop",
+            "route_id": 2141934478,
+            "start": {
+              "time": "2021-05-17T11:03:23Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18919,
+              "lng": 24.35365
+            },
+            "end": {
+              "time": "2021-05-17T11:39:57Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142031219,
+            "start": {
+              "time": "2021-05-17T11:39:57Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18911,
+              "lng": 24.35361
+            },
+            "avg_speed": 7,
+            "max_speed": 17,
+            "end": {
+              "time": "2021-05-17T11:41:35Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18962,
+              "lng": 24.35237
+            },
+            "distance": 205
+          },
+          {
+            "type": "stop",
+            "route_id": 2142041687,
+            "start": {
+              "time": "2021-05-17T11:41:35Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18962,
+              "lng": 24.35237
+            },
+            "end": {
+              "time": "2021-05-17T11:47:43Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142052369,
+            "start": {
+              "time": "2021-05-17T11:47:43Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.1896,
+              "lng": 24.35237
+            },
+            "avg_speed": 31,
+            "max_speed": 73,
+            "end": {
+              "time": "2021-05-17T11:57:54Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18203,
+              "lng": 24.3005
+            },
+            "distance": 5328
+          },
+          {
+            "type": "stop",
+            "route_id": 2142076705,
+            "start": {
+              "time": "2021-05-17T11:57:54Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18203,
+              "lng": 24.3005
+            },
+            "end": {
+              "time": "2021-05-17T12:42:49Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142195008,
+            "start": {
+              "time": "2021-05-17T12:42:49Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18201,
+              "lng": 24.30046
+            },
+            "avg_speed": 45,
+            "max_speed": 74,
+            "end": {
+              "time": "2021-05-17T12:53:12Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0410\u043f\u0440\u0438\u043b\u0446\u0438, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.1423,
+              "lng": 24.29211
+            },
+            "distance": 7860
+          },
+          {
+            "type": "stop",
+            "route_id": 2142217749,
+            "start": {
+              "time": "2021-05-17T12:53:12Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0410\u043f\u0440\u0438\u043b\u0446\u0438, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.1423,
+              "lng": 24.29211
+            },
+            "end": {
+              "time": "2021-05-17T12:57:34Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142231893,
+            "start": {
+              "time": "2021-05-17T12:57:34Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0410\u043f\u0440\u0438\u043b\u0446\u0438, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14234,
+              "lng": 24.29205
+            },
+            "avg_speed": 43,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-17T13:21:28Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02496,
+              "lng": 24.2903
+            },
+            "distance": 17285
+          },
+          {
+            "type": "stop",
+            "route_id": 2142288854,
+            "start": {
+              "time": "2021-05-17T13:21:28Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02496,
+              "lng": 24.2903
+            },
+            "end": {
+              "time": "2021-05-17T14:10:39Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142416269,
+            "start": {
+              "time": "2021-05-17T14:10:39Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02486,
+              "lng": 24.29052
+            },
+            "avg_speed": 5,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-17T14:12:28Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02471,
+              "lng": 24.29045
+            },
+            "distance": 152
+          },
+          {
+            "type": "stop",
+            "route_id": 2142417084,
+            "start": {
+              "time": "2021-05-17T14:12:28Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02471,
+              "lng": 24.29045
+            },
+            "end": {
+              "time": "2021-05-17T14:23:50Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142455402,
+            "start": {
+              "time": "2021-05-17T14:23:50Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02489,
+              "lng": 24.29021
+            },
+            "avg_speed": 3,
+            "max_speed": 3,
+            "end": {
+              "time": "2021-05-17T14:33:34Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02493,
+              "lng": 24.29057
+            },
+            "distance": 489
+          },
+          {
+            "type": "stop",
+            "route_id": 2142464303,
+            "start": {
+              "time": "2021-05-17T14:33:34Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02493,
+              "lng": 24.29057
+            },
+            "end": {
+              "time": "2021-05-17T14:34:15Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142466394,
+            "start": {
+              "time": "2021-05-17T14:34:15Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02501,
+              "lng": 24.29031
+            },
+            "avg_speed": 27,
+            "max_speed": 3,
+            "end": {
+              "time": "2021-05-17T14:34:41Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.0251,
+              "lng": 24.29036
+            },
+            "distance": 200
+          },
+          {
+            "type": "stop",
+            "route_id": 2142466395,
+            "start": {
+              "time": "2021-05-17T14:34:41Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.0251,
+              "lng": 24.29036
+            },
+            "end": {
+              "time": "2021-05-17T14:37:55Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142475300,
+            "start": {
+              "time": "2021-05-17T14:37:55Z",
+              "address": "II-37 2, 4550 Peshtera, Bulgaria",
+              "lat": 42.02505,
+              "lng": 24.29046
+            },
+            "avg_speed": 55,
+            "max_speed": 92,
+            "end": {
+              "time": "2021-05-17T15:03:50Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18261,
+              "lng": 24.30064
+            },
+            "distance": 23786
+          },
+          {
+            "type": "stop",
+            "route_id": 2142528662,
+            "start": {
+              "time": "2021-05-17T15:03:50Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18261,
+              "lng": 24.30064
+            },
+            "end": {
+              "time": "2021-05-17T15:53:40Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2142623791,
+            "start": {
+              "time": "2021-05-17T15:53:40Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18259,
+              "lng": 24.30057
+            },
+            "avg_speed": 5,
+            "max_speed": 6,
+            "end": {
+              "time": "2021-05-17T15:54:30Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30073
+            },
+            "distance": 73
+          },
+          {
+            "type": "stop",
+            "route_id": 2142624641,
+            "start": {
+              "time": "2021-05-17T15:54:30Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30073
+            },
+            "end": {
+              "time": "2021-05-17T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2142988553,
+            "start": {
+              "time": "2021-05-17T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30073
+            },
+            "end": {
+              "time": "2021-05-18T13:45:49Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2145111201,
+            "start": {
+              "time": "2021-05-18T13:45:49Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30073
+            },
+            "avg_speed": 15,
+            "max_speed": 29,
+            "end": {
+              "time": "2021-05-18T13:46:25Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18198,
+              "lng": 24.30013
+            },
+            "distance": 152
+          },
+          {
+            "type": "stop",
+            "route_id": 2145111203,
+            "start": {
+              "time": "2021-05-18T13:46:25Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18198,
+              "lng": 24.30013
+            },
+            "end": {
+              "time": "2021-05-18T17:07:22Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2145542838,
+            "start": {
+              "time": "2021-05-18T17:07:22Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18196,
+              "lng": 24.30015
+            },
+            "avg_speed": 36,
+            "max_speed": 74,
+            "end": {
+              "time": "2021-05-18T17:13:53Z",
+              "address": "ul. \"Krivolak\" 8, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1802,
+              "lng": 24.3424
+            },
+            "distance": 3940
+          },
+          {
+            "type": "stop",
+            "route_id": 2145551133,
+            "start": {
+              "time": "2021-05-18T17:13:53Z",
+              "address": "ul. \"Krivolak\" 8, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1802,
+              "lng": 24.3424
+            },
+            "end": {
+              "time": "2021-05-18T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2145832830,
+            "start": {
+              "time": "2021-05-18T21:00:00Z",
+              "address": "ul. \"Krivolak\" 8, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1802,
+              "lng": 24.3424
+            },
+            "end": {
+              "time": "2021-05-19T06:33:40Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2146560122,
+            "start": {
+              "time": "2021-05-19T06:33:40Z",
+              "address": "ul. \"Bolnichna\" 41, 4400 Pazardzhik Center, Pazardzhik, Bulgaria",
+              "lat": 42.18011,
+              "lng": 24.34271
+            },
+            "avg_speed": 34,
+            "max_speed": 67,
+            "end": {
+              "time": "2021-05-19T06:41:03Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18196,
+              "lng": 24.30019
+            },
+            "distance": 4186
+          },
+          {
+            "type": "stop",
+            "route_id": 2146578366,
+            "start": {
+              "time": "2021-05-19T06:41:03Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18196,
+              "lng": 24.30019
+            },
+            "end": {
+              "time": "2021-05-19T07:56:38Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2146826353,
+            "start": {
+              "time": "2021-05-19T07:56:38Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18195,
+              "lng": 24.30018
+            },
+            "avg_speed": 17,
+            "max_speed": 68,
+            "end": {
+              "time": "2021-05-19T08:16:03Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18917,
+              "lng": 24.35332
+            },
+            "distance": 5684
+          },
+          {
+            "type": "stop",
+            "route_id": 2146885601,
+            "start": {
+              "time": "2021-05-19T08:16:03Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18917,
+              "lng": 24.35332
+            },
+            "end": {
+              "time": "2021-05-19T08:53:07Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2147017517,
+            "start": {
+              "time": "2021-05-19T08:53:07Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18915,
+              "lng": 24.35332
+            },
+            "avg_speed": 12,
+            "max_speed": 23,
+            "end": {
+              "time": "2021-05-19T08:55:24Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18856,
+              "lng": 24.35357
+            },
+            "distance": 468
+          },
+          {
+            "type": "stop",
+            "route_id": 2147034083,
+            "start": {
+              "time": "2021-05-19T08:55:24Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18856,
+              "lng": 24.35357
+            },
+            "end": {
+              "time": "2021-05-19T09:31:32Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2147151533,
+            "start": {
+              "time": "2021-05-19T09:31:32Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18869,
+              "lng": 24.35379
+            },
+            "avg_speed": 46,
+            "max_speed": 3,
+            "end": {
+              "time": "2021-05-19T09:31:36Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1885,
+              "lng": 24.35401
+            },
+            "distance": 52
+          },
+          {
+            "type": "stop",
+            "route_id": 2147151534,
+            "start": {
+              "time": "2021-05-19T09:31:36Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1885,
+              "lng": 24.35401
+            },
+            "end": {
+              "time": "2021-05-19T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2148635811,
+            "start": {
+              "time": "2021-05-19T21:00:00Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1885,
+              "lng": 24.35401
+            },
+            "end": {
+              "time": "2021-05-20T07:04:25Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2149473129,
+            "start": {
+              "time": "2021-05-20T07:04:25Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18847,
+              "lng": 24.35413
+            },
+            "avg_speed": 136,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-20T07:04:26Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18824,
+              "lng": 24.35426
+            },
+            "distance": 38
+          },
+          {
+            "type": "stop",
+            "route_id": 2149473130,
+            "start": {
+              "time": "2021-05-20T07:04:26Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18824,
+              "lng": 24.35426
+            },
+            "end": {
+              "time": "2021-05-20T08:10:10Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2149700047,
+            "start": {
+              "time": "2021-05-20T08:10:10Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18857,
+              "lng": 24.35408
+            },
+            "avg_speed": 1,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-20T08:14:55Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18846,
+              "lng": 24.35415
+            },
+            "distance": 123
+          },
+          {
+            "type": "stop",
+            "route_id": 2149700053,
+            "start": {
+              "time": "2021-05-20T08:14:55Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18846,
+              "lng": 24.35415
+            },
+            "end": {
+              "time": "2021-05-20T08:42:31Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2149782145,
+            "start": {
+              "time": "2021-05-20T08:42:31Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18851,
+              "lng": 24.35408
+            },
+            "avg_speed": 12,
+            "max_speed": 22,
+            "end": {
+              "time": "2021-05-20T08:44:40Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18901,
+              "lng": 24.35354
+            },
+            "distance": 462
+          },
+          {
+            "type": "stop",
+            "route_id": 2149789198,
+            "start": {
+              "time": "2021-05-20T08:44:40Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18901,
+              "lng": 24.35354
+            },
+            "end": {
+              "time": "2021-05-20T11:49:18Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2150379468,
+            "start": {
+              "time": "2021-05-20T11:49:18Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18901,
+              "lng": 24.35373
+            },
+            "avg_speed": 27,
+            "max_speed": 61,
+            "end": {
+              "time": "2021-05-20T12:01:26Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18197,
+              "lng": 24.30036
+            },
+            "distance": 5646
+          },
+          {
+            "type": "stop",
+            "route_id": 2150413868,
+            "start": {
+              "time": "2021-05-20T12:01:26Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18197,
+              "lng": 24.30036
+            },
+            "end": {
+              "time": "2021-05-20T12:41:15Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2150522627,
+            "start": {
+              "time": "2021-05-20T12:41:15Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18197,
+              "lng": 24.30044
+            },
+            "avg_speed": 6,
+            "max_speed": 13,
+            "end": {
+              "time": "2021-05-20T12:42:52Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18291,
+              "lng": 24.30071
+            },
+            "distance": 170
+          },
+          {
+            "type": "stop",
+            "route_id": 2150528435,
+            "start": {
+              "time": "2021-05-20T12:42:52Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18291,
+              "lng": 24.30071
+            },
+            "end": {
+              "time": "2021-05-20T13:56:25Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2150723447,
+            "start": {
+              "time": "2021-05-20T13:56:25Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18292,
+              "lng": 24.30071
+            },
+            "avg_speed": 14,
+            "max_speed": 16,
+            "end": {
+              "time": "2021-05-20T13:56:50Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.182,
+              "lng": 24.30064
+            },
+            "distance": 104
+          },
+          {
+            "type": "stop",
+            "route_id": 2150723449,
+            "start": {
+              "time": "2021-05-20T13:56:50Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.182,
+              "lng": 24.30064
+            },
+            "end": {
+              "time": "2021-05-20T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2151401078,
+            "start": {
+              "time": "2021-05-20T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.182,
+              "lng": 24.30064
+            },
+            "end": {
+              "time": "2021-05-21T08:01:47Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2152411824,
+            "start": {
+              "time": "2021-05-21T08:01:47Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18192,
+              "lng": 24.30064
+            },
+            "avg_speed": 11,
+            "max_speed": 23,
+            "end": {
+              "time": "2021-05-21T08:02:34Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30076
+            },
+            "distance": 145
+          },
+          {
+            "type": "stop",
+            "route_id": 2152411825,
+            "start": {
+              "time": "2021-05-21T08:02:34Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30076
+            },
+            "end": {
+              "time": "2021-05-21T08:18:20Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2152455665,
+            "start": {
+              "time": "2021-05-21T08:18:20Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.3007
+            },
+            "avg_speed": 26,
+            "max_speed": 72,
+            "end": {
+              "time": "2021-05-21T08:31:19Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18859,
+              "lng": 24.3534
+            },
+            "distance": 5633
+          },
+          {
+            "type": "stop",
+            "route_id": 2152498348,
+            "start": {
+              "time": "2021-05-21T08:31:19Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18859,
+              "lng": 24.3534
+            },
+            "end": {
+              "time": "2021-05-21T08:35:59Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2152506789,
+            "start": {
+              "time": "2021-05-21T08:35:59Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1885,
+              "lng": 24.35315
+            },
+            "avg_speed": 64,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-21T11:15:20Z",
+              "address": "Unnamed Road, 6294 Mednikarovo, Bulgaria",
+              "lat": 42.14401,
+              "lng": 26.01049
+            },
+            "distance": 172293
+          },
+          {
+            "type": "stop",
+            "route_id": 2153021896,
+            "start": {
+              "time": "2021-05-21T11:15:20Z",
+              "address": "Unnamed Road, 6294 Mednikarovo, Bulgaria",
+              "lat": 42.14401,
+              "lng": 26.01049
+            },
+            "end": {
+              "time": "2021-05-21T11:29:25Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2153026112,
+            "start": {
+              "time": "2021-05-21T11:29:25Z",
+              "address": "Unnamed Road, 6294 Mednikarovo, Bulgaria",
+              "lat": 42.14401,
+              "lng": 26.0105
+            },
+            "avg_speed": 9,
+            "max_speed": 7,
+            "end": {
+              "time": "2021-05-21T11:29:39Z",
+              "address": "Unnamed Road, 6294 Mednikarovo, Bulgaria",
+              "lat": 42.14372,
+              "lng": 26.01054
+            },
+            "distance": 38
+          },
+          {
+            "type": "stop",
+            "route_id": 2153026116,
+            "start": {
+              "time": "2021-05-21T11:29:39Z",
+              "address": "Unnamed Road, 6294 Mednikarovo, Bulgaria",
+              "lat": 42.14372,
+              "lng": 26.01054
+            },
+            "end": {
+              "time": "2021-05-21T12:38:42Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2153198395,
+            "start": {
+              "time": "2021-05-21T12:38:42Z",
+              "address": "Unnamed Road, 6294 Mednikarovo, Bulgaria",
+              "lat": 42.14391,
+              "lng": 26.01053
+            },
+            "avg_speed": 30,
+            "max_speed": 77,
+            "end": {
+              "time": "2021-05-21T13:10:41Z",
+              "address": "554, 6496 Pyasachevo, Bulgaria",
+              "lat": 42.11808,
+              "lng": 25.86734
+            },
+            "distance": 16429
+          },
+          {
+            "type": "stop",
+            "route_id": 2153284706,
+            "start": {
+              "time": "2021-05-21T13:10:41Z",
+              "address": "554, 6496 Pyasachevo, Bulgaria",
+              "lat": 42.11808,
+              "lng": 25.86734
+            },
+            "end": {
+              "time": "2021-05-21T13:16:04Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2153294427,
+            "start": {
+              "time": "2021-05-21T13:16:04Z",
+              "address": "554, 6496 Pyasachevo, Bulgaria",
+              "lat": 42.11709,
+              "lng": 25.86758
+            },
+            "avg_speed": 66,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-21T15:53:50Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14122,
+              "lng": 24.29158
+            },
+            "distance": 174888
+          },
+          {
+            "type": "stop",
+            "route_id": 2153646925,
+            "start": {
+              "time": "2021-05-21T15:53:50Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14122,
+              "lng": 24.29158
+            },
+            "end": {
+              "time": "2021-05-21T16:30:37Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2153710200,
+            "start": {
+              "time": "2021-05-21T16:30:37Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14121,
+              "lng": 24.29159
+            },
+            "avg_speed": 8,
+            "max_speed": 15,
+            "end": {
+              "time": "2021-05-21T16:32:07Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14234,
+              "lng": 24.2925
+            },
+            "distance": 209
+          },
+          {
+            "type": "stop",
+            "route_id": 2153711454,
+            "start": {
+              "time": "2021-05-21T16:32:07Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14234,
+              "lng": 24.2925
+            },
+            "end": {
+              "time": "2021-05-21T16:56:42Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2153751083,
+            "start": {
+              "time": "2021-05-21T16:56:42Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14235,
+              "lng": 24.29251
+            },
+            "avg_speed": 40,
+            "max_speed": 79,
+            "end": {
+              "time": "2021-05-21T17:08:47Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18214,
+              "lng": 24.30059
+            },
+            "distance": 8076
+          },
+          {
+            "type": "stop",
+            "route_id": 2153771317,
+            "start": {
+              "time": "2021-05-21T17:08:47Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18214,
+              "lng": 24.30059
+            },
+            "end": {
+              "time": "2021-05-21T17:13:47Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2153776281,
+            "start": {
+              "time": "2021-05-21T17:13:47Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1822,
+              "lng": 24.30062
+            },
+            "avg_speed": 35,
+            "max_speed": 85,
+            "end": {
+              "time": "2021-05-21T17:20:22Z",
+              "address": "ul. \"Bolnichna\" 41, 4400 Pazardzhik Center, Pazardzhik, Bulgaria",
+              "lat": 42.18019,
+              "lng": 24.34247
+            },
+            "distance": 3865
+          },
+          {
+            "type": "stop",
+            "route_id": 2153784019,
+            "start": {
+              "time": "2021-05-21T17:20:22Z",
+              "address": "ul. \"Bolnichna\" 41, 4400 Pazardzhik Center, Pazardzhik, Bulgaria",
+              "lat": 42.18019,
+              "lng": 24.34247
+            },
+            "end": {
+              "time": "2021-05-21T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2154037226,
+            "start": {
+              "time": "2021-05-21T21:00:00Z",
+              "address": "ul. \"Bolnichna\" 41, 4400 Pazardzhik Center, Pazardzhik, Bulgaria",
+              "lat": 42.18019,
+              "lng": 24.34247
+            },
+            "end": {
+              "time": "2021-05-22T07:24:55Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2154572571,
+            "start": {
+              "time": "2021-05-22T07:24:55Z",
+              "address": "ul. \"Bolnichna\" 41, 4400 Pazardzhik Center, Pazardzhik, Bulgaria",
+              "lat": 42.18023,
+              "lng": 24.34275
+            },
+            "avg_speed": 25,
+            "max_speed": 65,
+            "end": {
+              "time": "2021-05-22T07:29:08Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18849,
+              "lng": 24.3544
+            },
+            "distance": 1758
+          },
+          {
+            "type": "stop",
+            "route_id": 2154576170,
+            "start": {
+              "time": "2021-05-22T07:29:08Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18849,
+              "lng": 24.3544
+            },
+            "end": {
+              "time": "2021-05-22T07:56:57Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2154613262,
+            "start": {
+              "time": "2021-05-22T07:56:57Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18845,
+              "lng": 24.35441
+            },
+            "avg_speed": 17,
+            "max_speed": 33,
+            "end": {
+              "time": "2021-05-22T07:58:24Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18933,
+              "lng": 24.35251
+            },
+            "distance": 426
+          },
+          {
+            "type": "stop",
+            "route_id": 2154615042,
+            "start": {
+              "time": "2021-05-22T07:58:24Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18933,
+              "lng": 24.35251
+            },
+            "end": {
+              "time": "2021-05-22T08:32:54Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2154665982,
+            "start": {
+              "time": "2021-05-22T08:32:54Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18917,
+              "lng": 24.35249
+            },
+            "avg_speed": 154,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-22T08:32:55Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18895,
+              "lng": 24.35258
+            },
+            "distance": 43
+          },
+          {
+            "type": "stop",
+            "route_id": 2154665985,
+            "start": {
+              "time": "2021-05-22T08:32:55Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18895,
+              "lng": 24.35258
+            },
+            "end": {
+              "time": "2021-05-22T08:42:45Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2154676465,
+            "start": {
+              "time": "2021-05-22T08:42:45Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18883,
+              "lng": 24.35261
+            },
+            "avg_speed": 19,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-22T09:00:03Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18271,
+              "lng": 24.30085
+            },
+            "distance": 5491
+          },
+          {
+            "type": "stop",
+            "route_id": 2154704035,
+            "start": {
+              "time": "2021-05-22T09:00:03Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18271,
+              "lng": 24.30085
+            },
+            "end": {
+              "time": "2021-05-22T09:07:42Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2154711851,
+            "start": {
+              "time": "2021-05-22T09:07:42Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18281,
+              "lng": 24.30076
+            },
+            "avg_speed": 28,
+            "max_speed": 24,
+            "end": {
+              "time": "2021-05-22T09:07:56Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18196,
+              "lng": 24.3006
+            },
+            "distance": 110
+          },
+          {
+            "type": "stop",
+            "route_id": 2154711853,
+            "start": {
+              "time": "2021-05-22T09:07:56Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18196,
+              "lng": 24.3006
+            },
+            "end": {
+              "time": "2021-05-22T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2155484038,
+            "start": {
+              "time": "2021-05-22T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18196,
+              "lng": 24.3006
+            },
+            "end": {
+              "time": "2021-05-23T06:36:50Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155824103,
+            "start": {
+              "time": "2021-05-23T06:36:50Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18195,
+              "lng": 24.30059
+            },
+            "avg_speed": 7,
+            "max_speed": 14,
+            "end": {
+              "time": "2021-05-23T06:38:42Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1826,
+              "lng": 24.30034
+            },
+            "distance": 228
+          },
+          {
+            "type": "stop",
+            "route_id": 2155826327,
+            "start": {
+              "time": "2021-05-23T06:38:42Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1826,
+              "lng": 24.30034
+            },
+            "end": {
+              "time": "2021-05-23T06:48:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155831785,
+            "start": {
+              "time": "2021-05-23T06:48:23Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18262,
+              "lng": 24.3003
+            },
+            "avg_speed": 27,
+            "max_speed": 70,
+            "end": {
+              "time": "2021-05-23T07:00:53Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18821,
+              "lng": 24.35459
+            },
+            "distance": 5747
+          },
+          {
+            "type": "stop",
+            "route_id": 2155840016,
+            "start": {
+              "time": "2021-05-23T07:00:53Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18821,
+              "lng": 24.35459
+            },
+            "end": {
+              "time": "2021-05-23T07:05:15Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155841240,
+            "start": {
+              "time": "2021-05-23T07:05:15Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18827,
+              "lng": 24.3546
+            },
+            "avg_speed": 5,
+            "max_speed": 11,
+            "end": {
+              "time": "2021-05-23T07:07:14Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18831,
+              "lng": 24.35454
+            },
+            "distance": 166
+          },
+          {
+            "type": "stop",
+            "route_id": 2155844130,
+            "start": {
+              "time": "2021-05-23T07:07:14Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18831,
+              "lng": 24.35454
+            },
+            "end": {
+              "time": "2021-05-23T07:14:11Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155848738,
+            "start": {
+              "time": "2021-05-23T07:14:11Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18812,
+              "lng": 24.35441
+            },
+            "avg_speed": 18,
+            "max_speed": 11,
+            "end": {
+              "time": "2021-05-23T07:14:21Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18794,
+              "lng": 24.35429
+            },
+            "distance": 50
+          },
+          {
+            "type": "stop",
+            "route_id": 2155848739,
+            "start": {
+              "time": "2021-05-23T07:14:21Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18794,
+              "lng": 24.35429
+            },
+            "end": {
+              "time": "2021-05-23T07:28:01Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155856253,
+            "start": {
+              "time": "2021-05-23T07:28:01Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18793,
+              "lng": 24.35422
+            },
+            "avg_speed": 29,
+            "max_speed": 89,
+            "end": {
+              "time": "2021-05-23T07:39:25Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18308,
+              "lng": 24.30068
+            },
+            "distance": 5679
+          },
+          {
+            "type": "stop",
+            "route_id": 2155863860,
+            "start": {
+              "time": "2021-05-23T07:39:25Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18308,
+              "lng": 24.30068
+            },
+            "end": {
+              "time": "2021-05-23T08:32:11Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155908322,
+            "start": {
+              "time": "2021-05-23T08:32:11Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18311,
+              "lng": 24.30073
+            },
+            "avg_speed": 1,
+            "max_speed": 9,
+            "end": {
+              "time": "2021-05-23T08:36:41Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18263,
+              "lng": 24.30069
+            },
+            "distance": 109
+          },
+          {
+            "type": "stop",
+            "route_id": 2155908323,
+            "start": {
+              "time": "2021-05-23T08:36:41Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18263,
+              "lng": 24.30069
+            },
+            "end": {
+              "time": "2021-05-23T09:52:37Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2155971390,
+            "start": {
+              "time": "2021-05-23T09:52:37Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18284,
+              "lng": 24.30076
+            },
+            "avg_speed": 33,
+            "max_speed": 89,
+            "end": {
+              "time": "2021-05-23T10:02:50Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18793,
+              "lng": 24.35413
+            },
+            "distance": 5687
+          },
+          {
+            "type": "stop",
+            "route_id": 2155982025,
+            "start": {
+              "time": "2021-05-23T10:02:50Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18793,
+              "lng": 24.35413
+            },
+            "end": {
+              "time": "2021-05-23T11:14:21Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156040679,
+            "start": {
+              "time": "2021-05-23T11:14:21Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18794,
+              "lng": 24.35418
+            },
+            "avg_speed": 4,
+            "max_speed": 11,
+            "end": {
+              "time": "2021-05-23T11:19:55Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18841,
+              "lng": 24.3544
+            },
+            "distance": 391
+          },
+          {
+            "type": "stop",
+            "route_id": 2156045267,
+            "start": {
+              "time": "2021-05-23T11:19:55Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18841,
+              "lng": 24.3544
+            },
+            "end": {
+              "time": "2021-05-23T12:11:41Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156090065,
+            "start": {
+              "time": "2021-05-23T12:11:41Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1884,
+              "lng": 24.35445
+            },
+            "avg_speed": 11,
+            "max_speed": 15,
+            "end": {
+              "time": "2021-05-23T12:14:05Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18937,
+              "lng": 24.35357
+            },
+            "distance": 478
+          },
+          {
+            "type": "stop",
+            "route_id": 2156094371,
+            "start": {
+              "time": "2021-05-23T12:14:05Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18937,
+              "lng": 24.35357
+            },
+            "end": {
+              "time": "2021-05-23T12:18:13Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156096172,
+            "start": {
+              "time": "2021-05-23T12:18:13Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18937,
+              "lng": 24.35381
+            },
+            "avg_speed": 162,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-23T12:18:14Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1894,
+              "lng": 24.35411
+            },
+            "distance": 45
+          },
+          {
+            "type": "stop",
+            "route_id": 2156096173,
+            "start": {
+              "time": "2021-05-23T12:18:14Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1894,
+              "lng": 24.35411
+            },
+            "end": {
+              "time": "2021-05-23T12:30:25Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156107159,
+            "start": {
+              "time": "2021-05-23T12:30:25Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18943,
+              "lng": 24.35412
+            },
+            "avg_speed": 7,
+            "max_speed": 9,
+            "end": {
+              "time": "2021-05-23T12:32:18Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18793,
+              "lng": 24.35408
+            },
+            "distance": 222
+          },
+          {
+            "type": "stop",
+            "route_id": 2156110056,
+            "start": {
+              "time": "2021-05-23T12:32:18Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18793,
+              "lng": 24.35408
+            },
+            "end": {
+              "time": "2021-05-23T12:52:05Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156124442,
+            "start": {
+              "time": "2021-05-23T12:52:05Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18795,
+              "lng": 24.35402
+            },
+            "avg_speed": 9,
+            "max_speed": 16,
+            "end": {
+              "time": "2021-05-23T12:52:40Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18834,
+              "lng": 24.35452
+            },
+            "distance": 91
+          },
+          {
+            "type": "stop",
+            "route_id": 2156126933,
+            "start": {
+              "time": "2021-05-23T12:52:40Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18834,
+              "lng": 24.35452
+            },
+            "end": {
+              "time": "2021-05-23T12:58:03Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156129406,
+            "start": {
+              "time": "2021-05-23T12:58:03Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18827,
+              "lng": 24.3545
+            },
+            "avg_speed": 16,
+            "max_speed": 22,
+            "end": {
+              "time": "2021-05-23T12:59:56Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18939,
+              "lng": 24.35382
+            },
+            "distance": 523
+          },
+          {
+            "type": "stop",
+            "route_id": 2156133131,
+            "start": {
+              "time": "2021-05-23T12:59:56Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18939,
+              "lng": 24.35382
+            },
+            "end": {
+              "time": "2021-05-23T13:04:04Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156134800,
+            "start": {
+              "time": "2021-05-23T13:04:04Z",
+              "address": "ul. \"Plovdivska\" 103, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1894,
+              "lng": 24.35414
+            },
+            "avg_speed": 7,
+            "max_speed": 25,
+            "end": {
+              "time": "2021-05-23T13:06:14Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18809,
+              "lng": 24.35447
+            },
+            "distance": 256
+          },
+          {
+            "type": "stop",
+            "route_id": 2156138655,
+            "start": {
+              "time": "2021-05-23T13:06:14Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18809,
+              "lng": 24.35447
+            },
+            "end": {
+              "time": "2021-05-23T13:10:20Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156140101,
+            "start": {
+              "time": "2021-05-23T13:10:20Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.1881,
+              "lng": 24.35439
+            },
+            "avg_speed": 38,
+            "max_speed": 89,
+            "end": {
+              "time": "2021-05-23T13:19:07Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1829,
+              "lng": 24.30081
+            },
+            "distance": 5628
+          },
+          {
+            "type": "stop",
+            "route_id": 2156149658,
+            "start": {
+              "time": "2021-05-23T13:19:07Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.1829,
+              "lng": 24.30081
+            },
+            "end": {
+              "time": "2021-05-23T13:26:33Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156155021,
+            "start": {
+              "time": "2021-05-23T13:26:33Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18292,
+              "lng": 24.30073
+            },
+            "avg_speed": 22,
+            "max_speed": 70,
+            "end": {
+              "time": "2021-05-23T13:41:55Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18795,
+              "lng": 24.35447
+            },
+            "distance": 5726
+          },
+          {
+            "type": "stop",
+            "route_id": 2156168859,
+            "start": {
+              "time": "2021-05-23T13:41:55Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18795,
+              "lng": 24.35447
+            },
+            "end": {
+              "time": "2021-05-23T14:00:18Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156190015,
+            "start": {
+              "time": "2021-05-23T14:00:18Z",
+              "address": "ul. \"Plovdivska\" 107, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18794,
+              "lng": 24.35451
+            },
+            "avg_speed": 37,
+            "max_speed": 84,
+            "end": {
+              "time": "2021-05-23T14:09:36Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.30063
+            },
+            "distance": 5825
+          },
+          {
+            "type": "stop",
+            "route_id": 2156197177,
+            "start": {
+              "time": "2021-05-23T14:09:36Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.30063
+            },
+            "end": {
+              "time": "2021-05-23T15:30:13Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156264807,
+            "start": {
+              "time": "2021-05-23T15:30:13Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.30067
+            },
+            "avg_speed": 69,
+            "max_speed": 98,
+            "end": {
+              "time": "2021-05-23T20:17:25Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91118,
+              "lng": 22.82349
+            },
+            "distance": 332611
+          },
+          {
+            "type": "stop",
+            "route_id": 2156463364,
+            "start": {
+              "time": "2021-05-23T20:17:25Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91118,
+              "lng": 22.82349
+            },
+            "end": {
+              "time": "2021-05-23T20:28:11Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156468189,
+            "start": {
+              "time": "2021-05-23T20:28:11Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91133,
+              "lng": 22.82345
+            },
+            "avg_speed": 60,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-23T20:50:44Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.99589,
+              "lng": 22.95046
+            },
+            "distance": 22839
+          },
+          {
+            "type": "stop",
+            "route_id": 2156482382,
+            "start": {
+              "time": "2021-05-23T20:50:44Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.99589,
+              "lng": 22.95046
+            },
+            "end": {
+              "time": "2021-05-23T20:56:04Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156485288,
+            "start": {
+              "time": "2021-05-23T20:56:04Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.99568,
+              "lng": 22.95054
+            },
+            "avg_speed": 176,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-23T20:56:05Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.99547,
+              "lng": 22.95064
+            },
+            "distance": 49
+          },
+          {
+            "type": "stop",
+            "route_id": 2156485290,
+            "start": {
+              "time": "2021-05-23T20:56:05Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.99547,
+              "lng": 22.95064
+            },
+            "end": {
+              "time": "2021-05-23T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2156502359,
+            "start": {
+              "time": "2021-05-23T21:00:00Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.99547,
+              "lng": 22.95064
+            },
+            "end": {
+              "time": "2021-05-23T21:07:24Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156552751,
+            "start": {
+              "time": "2021-05-23T21:07:24Z",
+              "address": "E79, Calafat 205200, Romania",
+              "lat": 43.9946,
+              "lng": 22.95088
+            },
+            "avg_speed": 5,
+            "max_speed": 19,
+            "end": {
+              "time": "2021-05-23T21:12:59Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99087,
+              "lng": 22.95221
+            },
+            "distance": 536
+          },
+          {
+            "type": "stop",
+            "route_id": 2156552754,
+            "start": {
+              "time": "2021-05-23T21:12:59Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99087,
+              "lng": 22.95221
+            },
+            "end": {
+              "time": "2021-05-23T21:34:43Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156565508,
+            "start": {
+              "time": "2021-05-23T21:34:43Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99058,
+              "lng": 22.95247
+            },
+            "avg_speed": 144,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-23T21:34:44Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99057,
+              "lng": 22.95248
+            },
+            "distance": 40
+          },
+          {
+            "type": "stop",
+            "route_id": 2156565510,
+            "start": {
+              "time": "2021-05-23T21:34:44Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99057,
+              "lng": 22.95248
+            },
+            "end": {
+              "time": "2021-05-23T21:38:17Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156569281,
+            "start": {
+              "time": "2021-05-23T21:38:17Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99043,
+              "lng": 22.95262
+            },
+            "avg_speed": 6,
+            "max_speed": 15,
+            "end": {
+              "time": "2021-05-23T21:40:34Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98919,
+              "lng": 22.95499
+            },
+            "distance": 257
+          },
+          {
+            "type": "stop",
+            "route_id": 2156569282,
+            "start": {
+              "time": "2021-05-23T21:40:34Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98919,
+              "lng": 22.95499
+            },
+            "end": {
+              "time": "2021-05-23T21:44:04Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156571452,
+            "start": {
+              "time": "2021-05-23T21:44:04Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98916,
+              "lng": 22.95526
+            },
+            "avg_speed": 6,
+            "max_speed": 11,
+            "end": {
+              "time": "2021-05-23T21:45:09Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98895,
+              "lng": 22.9563
+            },
+            "distance": 109
+          },
+          {
+            "type": "stop",
+            "route_id": 2156571453,
+            "start": {
+              "time": "2021-05-23T21:45:09Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98895,
+              "lng": 22.9563
+            },
+            "end": {
+              "time": "2021-05-23T21:55:34Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156603024,
+            "start": {
+              "time": "2021-05-23T21:55:34Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98895,
+              "lng": 22.95636
+            },
+            "avg_speed": 3,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-23T21:59:27Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98927,
+              "lng": 22.9592
+            },
+            "distance": 241
+          },
+          {
+            "type": "stop",
+            "route_id": 2156603026,
+            "start": {
+              "time": "2021-05-23T21:59:27Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98927,
+              "lng": 22.9592
+            },
+            "end": {
+              "time": "2021-05-23T22:08:58Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156613684,
+            "start": {
+              "time": "2021-05-23T22:08:58Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98925,
+              "lng": 22.95922
+            },
+            "avg_speed": 9,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-23T22:09:30Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98959,
+              "lng": 22.96011
+            },
+            "distance": 84
+          },
+          {
+            "type": "stop",
+            "route_id": 2156613685,
+            "start": {
+              "time": "2021-05-23T22:09:30Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98959,
+              "lng": 22.96011
+            },
+            "end": {
+              "time": "2021-05-23T22:12:51Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156615518,
+            "start": {
+              "time": "2021-05-23T22:12:51Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.98965,
+              "lng": 22.96018
+            },
+            "avg_speed": 1,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-23T22:37:28Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99255,
+              "lng": 22.96368
+            },
+            "distance": 546
+          },
+          {
+            "type": "stop",
+            "route_id": 2156627859,
+            "start": {
+              "time": "2021-05-23T22:37:28Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99255,
+              "lng": 22.96368
+            },
+            "end": {
+              "time": "2021-05-23T22:41:45Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156631101,
+            "start": {
+              "time": "2021-05-23T22:41:45Z",
+              "address": "E79, 205200, Romania",
+              "lat": 43.99258,
+              "lng": 22.96366
+            },
+            "avg_speed": 37,
+            "max_speed": 56,
+            "end": {
+              "time": "2021-05-23T22:43:39Z",
+              "address": "DN56 172, Calafat 205200, Romania",
+              "lat": 43.99961,
+              "lng": 22.97324
+            },
+            "distance": 1184
+          },
+          {
+            "type": "stop",
+            "route_id": 2156632852,
+            "start": {
+              "time": "2021-05-23T22:43:39Z",
+              "address": "DN56 172, Calafat 205200, Romania",
+              "lat": 43.99961,
+              "lng": 22.97324
+            },
+            "end": {
+              "time": "2021-05-23T22:52:33Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156637696,
+            "start": {
+              "time": "2021-05-23T22:52:33Z",
+              "address": "DN56 172, Calafat 205200, Romania",
+              "lat": 43.99969,
+              "lng": 22.97354
+            },
+            "avg_speed": 77,
+            "max_speed": 95,
+            "end": {
+              "time": "2021-05-24T00:01:27Z",
+              "address": "E70 70, \u0218imian 227445, Romania",
+              "lat": 44.6119,
+              "lng": 22.71079
+            },
+            "distance": 88930
+          },
+          {
+            "type": "stop",
+            "route_id": 2156678486,
+            "start": {
+              "time": "2021-05-24T00:01:27Z",
+              "address": "E70 70, \u0218imian 227445, Romania",
+              "lat": 44.6119,
+              "lng": 22.71079
+            },
+            "end": {
+              "time": "2021-05-24T00:04:46Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156680840,
+            "start": {
+              "time": "2021-05-24T00:04:46Z",
+              "address": "E70 70, \u0218imian 227445, Romania",
+              "lat": 44.61201,
+              "lng": 22.71051
+            },
+            "avg_speed": 74,
+            "max_speed": 97,
+            "end": {
+              "time": "2021-05-24T02:42:02Z",
+              "address": "A1, Romania",
+              "lat": 45.79425,
+              "lng": 21.69884
+            },
+            "distance": 194699
+          },
+          {
+            "type": "stop",
+            "route_id": 2156772400,
+            "start": {
+              "time": "2021-05-24T02:42:02Z",
+              "address": "A1, Romania",
+              "lat": 45.79425,
+              "lng": 21.69884
+            },
+            "end": {
+              "time": "2021-05-24T02:49:13Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156776561,
+            "start": {
+              "time": "2021-05-24T02:49:13Z",
+              "address": "A1, Romania",
+              "lat": 45.79427,
+              "lng": 21.69882
+            },
+            "avg_speed": 82,
+            "max_speed": 95,
+            "end": {
+              "time": "2021-05-24T04:19:34Z",
+              "address": "DN7, N\u0103dlac 315500, Romania",
+              "lat": 46.16725,
+              "lng": 20.72226
+            },
+            "distance": 123770
+          },
+          {
+            "type": "stop",
+            "route_id": 2156870787,
+            "start": {
+              "time": "2021-05-24T04:19:34Z",
+              "address": "DN7, N\u0103dlac 315500, Romania",
+              "lat": 46.16725,
+              "lng": 20.72226
+            },
+            "end": {
+              "time": "2021-05-24T04:30:16Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2156883571,
+            "start": {
+              "time": "2021-05-24T04:30:16Z",
+              "address": "DN7, N\u0103dlac 315500, Romania",
+              "lat": 46.16724,
+              "lng": 20.72216
+            },
+            "avg_speed": 77,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-24T06:11:37Z",
+              "address": "Kecskem\u00e9t, 50482, 6000 Hungary",
+              "lat": 46.84695,
+              "lng": 19.66749
+            },
+            "distance": 130285
+          },
+          {
+            "type": "stop",
+            "route_id": 2157092788,
+            "start": {
+              "time": "2021-05-24T06:11:37Z",
+              "address": "Kecskem\u00e9t, 50482, 6000 Hungary",
+              "lat": 46.84695,
+              "lng": 19.66749
+            },
+            "end": {
+              "time": "2021-05-24T06:20:08Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157106653,
+            "start": {
+              "time": "2021-05-24T06:20:08Z",
+              "address": "Kecskem\u00e9t, 50482, 6000 Hungary",
+              "lat": 46.84704,
+              "lng": 19.66727
+            },
+            "avg_speed": 86,
+            "max_speed": 99,
+            "end": {
+              "time": "2021-05-24T08:23:13Z",
+              "address": "\u00c1cs, 10421, 2941 Hungary",
+              "lat": 47.68251,
+              "lng": 17.97925
+            },
+            "distance": 178354
+          },
+          {
+            "type": "stop",
+            "route_id": 2157384294,
+            "start": {
+              "time": "2021-05-24T08:23:13Z",
+              "address": "\u00c1cs, 10421, 2941 Hungary",
+              "lat": 47.68251,
+              "lng": 17.97925
+            },
+            "end": {
+              "time": "2021-05-24T08:42:33Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157423888,
+            "start": {
+              "time": "2021-05-24T08:42:33Z",
+              "address": "\u00c1cs, 10421, 2941 Hungary",
+              "lat": 47.68251,
+              "lng": 17.97924
+            },
+            "avg_speed": 86,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-24T09:42:43Z",
+              "address": "\u010cunovo 851 10, 851 10 Bratislava-\u010cunovo, Slovakia",
+              "lat": 48.01605,
+              "lng": 17.17464
+            },
+            "distance": 86880
+          },
+          {
+            "type": "stop",
+            "route_id": 2157564942,
+            "start": {
+              "time": "2021-05-24T09:42:43Z",
+              "address": "\u010cunovo 851 10, 851 10 Bratislava-\u010cunovo, Slovakia",
+              "lat": 48.01605,
+              "lng": 17.17464
+            },
+            "end": {
+              "time": "2021-05-24T09:52:40Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157584156,
+            "start": {
+              "time": "2021-05-24T09:52:40Z",
+              "address": "\u010cunovo 851 10, 851 10 Bratislava-\u010cunovo, Slovakia",
+              "lat": 48.01604,
+              "lng": 17.17457
+            },
+            "avg_speed": 78,
+            "max_speed": 93,
+            "end": {
+              "time": "2021-05-24T10:57:13Z",
+              "address": "Lan\u017ehot 592, 691 51 Lan\u017ehot, Czechia",
+              "lat": 48.72707,
+              "lng": 16.98327
+            },
+            "distance": 84818
+          },
+          {
+            "type": "stop",
+            "route_id": 2157730609,
+            "start": {
+              "time": "2021-05-24T10:57:13Z",
+              "address": "Lan\u017ehot 592, 691 51 Lan\u017ehot, Czechia",
+              "lat": 48.72707,
+              "lng": 16.98327
+            },
+            "end": {
+              "time": "2021-05-24T11:00:51Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157733848,
+            "start": {
+              "time": "2021-05-24T11:00:51Z",
+              "address": "Lan\u017ehot 592, 691 51 Lan\u017ehot, Czechia",
+              "lat": 48.72713,
+              "lng": 16.98332
+            },
+            "avg_speed": 79,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-24T11:35:05Z",
+              "address": "Blu\u010dina 702, 664 56 Blu\u010dina, Czechia",
+              "lat": 49.05439,
+              "lng": 16.66499
+            },
+            "distance": 45630
+          },
+          {
+            "type": "stop",
+            "route_id": 2157808080,
+            "start": {
+              "time": "2021-05-24T11:35:05Z",
+              "address": "Blu\u010dina 702, 664 56 Blu\u010dina, Czechia",
+              "lat": 49.05439,
+              "lng": 16.66499
+            },
+            "end": {
+              "time": "2021-05-24T12:03:30Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157875594,
+            "start": {
+              "time": "2021-05-24T12:03:30Z",
+              "address": "Blu\u010dina 702, 664 56 Blu\u010dina, Czechia",
+              "lat": 49.05448,
+              "lng": 16.66505
+            },
+            "avg_speed": 65,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-24T12:28:54Z",
+              "address": "D1, Omice, Czechia",
+              "lat": 49.19193,
+              "lng": 16.43745
+            },
+            "distance": 27643
+          },
+          {
+            "type": "stop",
+            "route_id": 2157930592,
+            "start": {
+              "time": "2021-05-24T12:28:54Z",
+              "address": "D1, Omice, Czechia",
+              "lat": 49.19193,
+              "lng": 16.43745
+            },
+            "end": {
+              "time": "2021-05-24T12:32:13Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157940221,
+            "start": {
+              "time": "2021-05-24T12:32:13Z",
+              "address": "E65, Omice, Czechia",
+              "lat": 49.19236,
+              "lng": 16.43648
+            },
+            "avg_speed": 49,
+            "max_speed": 55,
+            "end": {
+              "time": "2021-05-24T12:33:24Z",
+              "address": "Osvobozen\u00ed 30, 664 81 Ostrova\u010dice, Czechia",
+              "lat": 49.19752,
+              "lng": 16.42706
+            },
+            "distance": 982
+          },
+          {
+            "type": "stop",
+            "route_id": 2157940222,
+            "start": {
+              "time": "2021-05-24T12:33:24Z",
+              "address": "Osvobozen\u00ed 30, 664 81 Ostrova\u010dice, Czechia",
+              "lat": 49.19752,
+              "lng": 16.42706
+            },
+            "end": {
+              "time": "2021-05-24T12:37:03Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2157951636,
+            "start": {
+              "time": "2021-05-24T12:37:03Z",
+              "address": "Osvobozen\u00ed 41, 664 81 Ostrova\u010dice, Czechia",
+              "lat": 49.19839,
+              "lng": 16.42586
+            },
+            "avg_speed": 62,
+            "max_speed": 95,
+            "end": {
+              "time": "2021-05-24T13:43:35Z",
+              "address": "E65, 586 01 Jihlava, Czechia",
+              "lat": 49.4551,
+              "lng": 15.59372
+            },
+            "distance": 69305
+          },
+          {
+            "type": "stop",
+            "route_id": 2158083103,
+            "start": {
+              "time": "2021-05-24T13:43:35Z",
+              "address": "E65, 586 01 Jihlava, Czechia",
+              "lat": 49.4551,
+              "lng": 15.59372
+            },
+            "end": {
+              "time": "2021-05-24T13:48:45Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2158092669,
+            "start": {
+              "time": "2021-05-24T13:48:45Z",
+              "address": "E65, 586 01 Jihlava, Czechia",
+              "lat": 49.45504,
+              "lng": 15.59368
+            },
+            "avg_speed": 83,
+            "max_speed": 107,
+            "end": {
+              "time": "2021-05-24T15:01:25Z",
+              "address": "E65, 251 01 Nupaky, Czechia",
+              "lat": 49.98259,
+              "lng": 14.60394
+            },
+            "distance": 101327
+          },
+          {
+            "type": "stop",
+            "route_id": 2158233373,
+            "start": {
+              "time": "2021-05-24T15:01:25Z",
+              "address": "E65, 251 01 Nupaky, Czechia",
+              "lat": 49.98259,
+              "lng": 14.60394
+            },
+            "end": {
+              "time": "2021-05-24T15:44:41Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2158300130,
+            "start": {
+              "time": "2021-05-24T15:44:41Z",
+              "address": "Nupaky 139, 251 01 Nupaky, Czechia",
+              "lat": 49.9824,
+              "lng": 14.60353
+            },
+            "avg_speed": 55,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-24T15:53:32Z",
+              "address": "D0, 252 42 Jesenice, Czechia",
+              "lat": 49.96347,
+              "lng": 14.49931
+            },
+            "distance": 8232
+          },
+          {
+            "type": "stop",
+            "route_id": 2158314770,
+            "start": {
+              "time": "2021-05-24T15:53:32Z",
+              "address": "D0, 252 42 Jesenice, Czechia",
+              "lat": 49.96347,
+              "lng": 14.49931
+            },
+            "end": {
+              "time": "2021-05-24T15:59:56Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2158323236,
+            "start": {
+              "time": "2021-05-24T15:59:56Z",
+              "address": "D0, 252 42 Jesenice, Czechia",
+              "lat": 49.96346,
+              "lng": 14.49928
+            },
+            "avg_speed": 57,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-24T16:05:11Z",
+              "address": "D0, 143 00 Praha 12, Czechia",
+              "lat": 49.98106,
+              "lng": 14.44253
+            },
+            "distance": 5067
+          },
+          {
+            "type": "stop",
+            "route_id": 2158332252,
+            "start": {
+              "time": "2021-05-24T16:05:11Z",
+              "address": "D0, 143 00 Praha 12, Czechia",
+              "lat": 49.98106,
+              "lng": 14.44253
+            },
+            "end": {
+              "time": "2021-05-24T16:12:47Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2158345096,
+            "start": {
+              "time": "2021-05-24T16:12:47Z",
+              "address": "D0, 143 00 Praha 12, Czechia",
+              "lat": 49.98115,
+              "lng": 14.4419
+            },
+            "avg_speed": 62,
+            "max_speed": 98,
+            "end": {
+              "time": "2021-05-24T17:04:24Z",
+              "address": "Z\u00e1lu\u017e\u00ed 165, 267 61 Z\u00e1lu\u017e\u00ed, Czechia",
+              "lat": 49.85461,
+              "lng": 13.87126
+            },
+            "distance": 53933
+          },
+          {
+            "type": "stop",
+            "route_id": 2158409519,
+            "start": {
+              "time": "2021-05-24T17:04:24Z",
+              "address": "Z\u00e1lu\u017e\u00ed 165, 267 61 Z\u00e1lu\u017e\u00ed, Czechia",
+              "lat": 49.85461,
+              "lng": 13.87126
+            },
+            "end": {
+              "time": "2021-05-24T17:07:57Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2158413473,
+            "start": {
+              "time": "2021-05-24T17:07:57Z",
+              "address": "Z\u00e1lu\u017e\u00ed 165, 267 61 Z\u00e1lu\u017e\u00ed, Czechia",
+              "lat": 49.85457,
+              "lng": 13.87119
+            },
+            "avg_speed": 86,
+            "max_speed": 103,
+            "end": {
+              "time": "2021-05-24T17:59:25Z",
+              "address": "D5 - 111.km, 349 61 Kladruby, Czechia",
+              "lat": 49.70302,
+              "lng": 12.98755
+            },
+            "distance": 74618
+          },
+          {
+            "type": "stop",
+            "route_id": 2158471528,
+            "start": {
+              "time": "2021-05-24T17:59:25Z",
+              "address": "D5 - 111.km, 349 61 Kladruby, Czechia",
+              "lat": 49.70302,
+              "lng": 12.98755
+            },
+            "end": {
+              "time": "2021-05-24T18:03:48Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2158473763,
+            "start": {
+              "time": "2021-05-24T18:03:48Z",
+              "address": "D5 - 111.km, 349 61 Kladruby, Czechia",
+              "lat": 49.70304,
+              "lng": 12.98759
+            },
+            "avg_speed": 80,
+            "max_speed": 95,
+            "end": {
+              "time": "2021-05-24T19:30:20Z",
+              "address": "BAB A 6 \/ OBERPF\u00c4LZER ALB NORD, 92278 Illschwang, Germany",
+              "lat": 49.42422,
+              "lng": 11.69211
+            },
+            "distance": 116014
+          },
+          {
+            "type": "stop",
+            "route_id": 2158556830,
+            "start": {
+              "time": "2021-05-24T19:30:20Z",
+              "address": "BAB A 6 \/ OBERPF\u00c4LZER ALB NORD, 92278 Illschwang, Germany",
+              "lat": 49.42422,
+              "lng": 11.69211
+            },
+            "end": {
+              "time": "2021-05-24T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2158670455,
+            "start": {
+              "time": "2021-05-24T21:00:00Z",
+              "address": "BAB A 6 \/ OBERPF\u00c4LZER ALB NORD, 92278 Illschwang, Germany",
+              "lat": 49.42422,
+              "lng": 11.69211
+            },
+            "end": {
+              "time": "2021-05-25T05:03:39Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159177586,
+            "start": {
+              "time": "2021-05-25T05:03:39Z",
+              "address": "BAB A 6 \/ OBERPF\u00c4LZER ALB NORD, 92278 Illschwang, Germany",
+              "lat": 49.42412,
+              "lng": 11.69199
+            },
+            "avg_speed": 80,
+            "max_speed": 96,
+            "end": {
+              "time": "2021-05-25T06:49:05Z",
+              "address": "Eckartsh\u00e4user Str. 67, 74532 Ilshofen, Germany",
+              "lat": 49.16855,
+              "lng": 9.93731
+            },
+            "distance": 141646
+          },
+          {
+            "type": "stop",
+            "route_id": 2159497277,
+            "start": {
+              "time": "2021-05-25T06:49:05Z",
+              "address": "Eckartsh\u00e4user Str. 67, 74532 Ilshofen, Germany",
+              "lat": 49.16855,
+              "lng": 9.93731
+            },
+            "end": {
+              "time": "2021-05-25T07:06:58Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159530108,
+            "start": {
+              "time": "2021-05-25T07:06:58Z",
+              "address": "Eckartsh\u00e4user Str. 67, 74532 Ilshofen, Germany",
+              "lat": 49.16861,
+              "lng": 9.93712
+            },
+            "avg_speed": 54,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-25T07:06:59Z",
+              "address": "Eckartsh\u00e4user Str. 67, 74532 Ilshofen, Germany",
+              "lat": 49.16861,
+              "lng": 9.93712
+            },
+            "distance": 15
+          },
+          {
+            "type": "stop",
+            "route_id": 2159530112,
+            "start": {
+              "time": "2021-05-25T07:06:59Z",
+              "address": "Eckartsh\u00e4user Str. 67, 74532 Ilshofen, Germany",
+              "lat": 49.16861,
+              "lng": 9.93712
+            },
+            "end": {
+              "time": "2021-05-25T07:20:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159563283,
+            "start": {
+              "time": "2021-05-25T07:20:23Z",
+              "address": "Eckartsh\u00e4user Str. 67, 74532 Ilshofen, Germany",
+              "lat": 49.16858,
+              "lng": 9.93757
+            },
+            "avg_speed": 70,
+            "max_speed": 93,
+            "end": {
+              "time": "2021-05-25T08:00:19Z",
+              "address": "E50, 74626 Bretzfeld, Germany",
+              "lat": 49.1742,
+              "lng": 9.39185
+            },
+            "distance": 47054
+          },
+          {
+            "type": "stop",
+            "route_id": 2159692158,
+            "start": {
+              "time": "2021-05-25T08:00:19Z",
+              "address": "E50, 74626 Bretzfeld, Germany",
+              "lat": 49.1742,
+              "lng": 9.39185
+            },
+            "end": {
+              "time": "2021-05-25T08:03:38Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159708333,
+            "start": {
+              "time": "2021-05-25T08:03:38Z",
+              "address": "E50, 74626 Bretzfeld, Germany",
+              "lat": 49.17409,
+              "lng": 9.39147
+            },
+            "avg_speed": 32,
+            "max_speed": 73,
+            "end": {
+              "time": "2021-05-25T08:05:44Z",
+              "address": "E50, 74626 Bretzfeld, Germany",
+              "lat": 49.17021,
+              "lng": 9.37789
+            },
+            "distance": 1150
+          },
+          {
+            "type": "stop",
+            "route_id": 2159708338,
+            "start": {
+              "time": "2021-05-25T08:05:44Z",
+              "address": "E50, 74626 Bretzfeld, Germany",
+              "lat": 49.17021,
+              "lng": 9.37789
+            },
+            "end": {
+              "time": "2021-05-25T08:09:20Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159723282,
+            "start": {
+              "time": "2021-05-25T08:09:20Z",
+              "address": "E50, 74626 Bretzfeld, Germany",
+              "lat": 49.16999,
+              "lng": 9.37778
+            },
+            "avg_speed": 29,
+            "max_speed": 42,
+            "end": {
+              "time": "2021-05-25T08:10:40Z",
+              "address": "E50, Germany",
+              "lat": 49.16513,
+              "lng": 9.37337
+            },
+            "distance": 657
+          },
+          {
+            "type": "stop",
+            "route_id": 2159723286,
+            "start": {
+              "time": "2021-05-25T08:10:40Z",
+              "address": "E50, Germany",
+              "lat": 49.16513,
+              "lng": 9.37337
+            },
+            "end": {
+              "time": "2021-05-25T08:15:20Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159740784,
+            "start": {
+              "time": "2021-05-25T08:15:20Z",
+              "address": "E50, Germany",
+              "lat": 49.16503,
+              "lng": 9.37339
+            },
+            "avg_speed": 40,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-25T08:26:23Z",
+              "address": "E50, 74235 Erlenbach, Germany",
+              "lat": 49.16244,
+              "lng": 9.27876
+            },
+            "distance": 7389
+          },
+          {
+            "type": "stop",
+            "route_id": 2159771677,
+            "start": {
+              "time": "2021-05-25T08:26:23Z",
+              "address": "E50, 74235 Erlenbach, Germany",
+              "lat": 49.16244,
+              "lng": 9.27876
+            },
+            "end": {
+              "time": "2021-05-25T08:29:29Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159791823,
+            "start": {
+              "time": "2021-05-25T08:29:29Z",
+              "address": "E50, 74235 Erlenbach, Germany",
+              "lat": 49.16349,
+              "lng": 9.27529
+            },
+            "avg_speed": 52,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-25T08:45:37Z",
+              "address": "A6, 74906 Bad Rappenau, Germany",
+              "lat": 49.1967,
+              "lng": 9.10047
+            },
+            "distance": 14050
+          },
+          {
+            "type": "stop",
+            "route_id": 2159831250,
+            "start": {
+              "time": "2021-05-25T08:45:37Z",
+              "address": "A6, 74906 Bad Rappenau, Germany",
+              "lat": 49.1967,
+              "lng": 9.10047
+            },
+            "end": {
+              "time": "2021-05-25T08:51:12Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2159842859,
+            "start": {
+              "time": "2021-05-25T08:51:12Z",
+              "address": "A6, 74906 Bad Rappenau, Germany",
+              "lat": 49.19673,
+              "lng": 9.10036
+            },
+            "avg_speed": 85,
+            "max_speed": 103,
+            "end": {
+              "time": "2021-05-25T12:00:51Z",
+              "address": "E50, 57280 F\u00e8ves, France",
+              "lat": 49.19667,
+              "lng": 6.09574
+            },
+            "distance": 270729
+          },
+          {
+            "type": "stop",
+            "route_id": 2160400677,
+            "start": {
+              "time": "2021-05-25T12:00:51Z",
+              "address": "E50, 57280 F\u00e8ves, France",
+              "lat": 49.19667,
+              "lng": 6.09574
+            },
+            "end": {
+              "time": "2021-05-25T12:06:28Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2160411855,
+            "start": {
+              "time": "2021-05-25T12:06:28Z",
+              "address": "E50, 57535 Bronvaux, France",
+              "lat": 49.19661,
+              "lng": 6.09562
+            },
+            "avg_speed": 75,
+            "max_speed": 98,
+            "end": {
+              "time": "2021-05-25T15:49:42Z",
+              "address": "1 Rue de la Sente aux Loups, 77120 Coulommiers, France",
+              "lat": 48.82309,
+              "lng": 3.09059
+            },
+            "distance": 282164
+          },
+          {
+            "type": "stop",
+            "route_id": 2160968434,
+            "start": {
+              "time": "2021-05-25T15:49:42Z",
+              "address": "1 Rue de la Sente aux Loups, 77120 Coulommiers, France",
+              "lat": 48.82309,
+              "lng": 3.09059
+            },
+            "end": {
+              "time": "2021-05-25T19:00:24Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2161242199,
+            "start": {
+              "time": "2021-05-25T19:00:24Z",
+              "address": "1 Rue de la Sente aux Loups, 77120 Coulommiers, France",
+              "lat": 48.82309,
+              "lng": 3.09025
+            },
+            "avg_speed": 64,
+            "max_speed": 101,
+            "end": {
+              "time": "2021-05-25T21:00:00Z",
+              "address": "E50, 91640 Janvry, France",
+              "lat": 48.64706,
+              "lng": 2.16475
+            },
+            "distance": 128756
+          },
+          {
+            "type": "route",
+            "route_id": 2161355002,
+            "start": {
+              "time": "2021-05-25T21:00:00Z",
+              "address": "E50, 91640 Janvry, France",
+              "lat": 48.64706,
+              "lng": 2.16475
+            },
+            "avg_speed": 86,
+            "max_speed": 95,
+            "end": {
+              "time": "2021-05-25T22:05:51Z",
+              "address": "A11 Aire DE Brou, 28160 Fraz\u00e9, France",
+              "lat": 48.24095,
+              "lng": 1.08504
+            },
+            "distance": 95219
+          },
+          {
+            "type": "stop",
+            "route_id": 2161480062,
+            "start": {
+              "time": "2021-05-25T22:05:51Z",
+              "address": "A11 Aire DE Brou, 28160 Fraz\u00e9, France",
+              "lat": 48.24095,
+              "lng": 1.08504
+            },
+            "end": {
+              "time": "2021-05-25T22:09:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2161482186,
+            "start": {
+              "time": "2021-05-25T22:09:23Z",
+              "address": "A11 Aire DE Brou, 28160 Fraz\u00e9, France",
+              "lat": 48.2409,
+              "lng": 1.08501
+            },
+            "avg_speed": 67,
+            "max_speed": 97,
+            "end": {
+              "time": "2021-05-26T00:45:35Z",
+              "address": "La Cossonni\u00e8re, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.93673,
+              "lng": -0.96226
+            },
+            "distance": 176154
+          },
+          {
+            "type": "stop",
+            "route_id": 2161591901,
+            "start": {
+              "time": "2021-05-26T00:45:35Z",
+              "address": "La Cossonni\u00e8re, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.93673,
+              "lng": -0.96226
+            },
+            "end": {
+              "time": "2021-05-26T00:52:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2161594964,
+            "start": {
+              "time": "2021-05-26T00:52:23Z",
+              "address": "La Cossonni\u00e8re, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.93679,
+              "lng": -0.96245
+            },
+            "avg_speed": 21,
+            "max_speed": 62,
+            "end": {
+              "time": "2021-05-26T01:31:16Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91624,
+              "lng": -0.9509
+            },
+            "distance": 14044
+          },
+          {
+            "type": "stop",
+            "route_id": 2161619622,
+            "start": {
+              "time": "2021-05-26T01:31:16Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91624,
+              "lng": -0.9509
+            },
+            "end": {
+              "time": "2021-05-26T07:36:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2162316007,
+            "start": {
+              "time": "2021-05-26T07:36:23Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91623,
+              "lng": -0.95096
+            },
+            "avg_speed": 108,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-26T07:36:24Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.9164,
+              "lng": -0.95118
+            },
+            "distance": 30
+          },
+          {
+            "type": "stop",
+            "route_id": 2162316009,
+            "start": {
+              "time": "2021-05-26T07:36:24Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.9164,
+              "lng": -0.95118
+            },
+            "end": {
+              "time": "2021-05-26T07:54:20Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2162364233,
+            "start": {
+              "time": "2021-05-26T07:54:20Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91637,
+              "lng": -0.95116
+            },
+            "avg_speed": 3,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-26T07:57:50Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91665,
+              "lng": -0.95143
+            },
+            "distance": 203
+          },
+          {
+            "type": "stop",
+            "route_id": 2162378984,
+            "start": {
+              "time": "2021-05-26T07:57:50Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91665,
+              "lng": -0.95143
+            },
+            "end": {
+              "time": "2021-05-26T11:34:22Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163017223,
+            "start": {
+              "time": "2021-05-26T11:34:22Z",
+              "address": "La No\u00e9, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.91666,
+              "lng": -0.95139
+            },
+            "avg_speed": 24,
+            "max_speed": 63,
+            "end": {
+              "time": "2021-05-26T11:50:33Z",
+              "address": "63 Route de Laval, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.95241,
+              "lng": -0.90321
+            },
+            "distance": 6588
+          },
+          {
+            "type": "stop",
+            "route_id": 2163067680,
+            "start": {
+              "time": "2021-05-26T11:50:33Z",
+              "address": "63 Route de Laval, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.95241,
+              "lng": -0.90321
+            },
+            "end": {
+              "time": "2021-05-26T11:54:46Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163075260,
+            "start": {
+              "time": "2021-05-26T11:54:46Z",
+              "address": "63 Route de Laval, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.9526,
+              "lng": -0.90304
+            },
+            "avg_speed": 6,
+            "max_speed": 12,
+            "end": {
+              "time": "2021-05-26T11:56:55Z",
+              "address": "49 Avenue Paul Bigeon, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.95229,
+              "lng": -0.90393
+            },
+            "distance": 223
+          },
+          {
+            "type": "stop",
+            "route_id": 2163078367,
+            "start": {
+              "time": "2021-05-26T11:56:55Z",
+              "address": "49 Avenue Paul Bigeon, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.95229,
+              "lng": -0.90393
+            },
+            "end": {
+              "time": "2021-05-26T12:07:16Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163112074,
+            "start": {
+              "time": "2021-05-26T12:07:16Z",
+              "address": "49 Avenue Paul Bigeon, 53230 Coss\u00e9-le-Vivien, France",
+              "lat": 47.952,
+              "lng": -0.9039
+            },
+            "avg_speed": 78,
+            "max_speed": 102,
+            "end": {
+              "time": "2021-05-26T14:57:25Z",
+              "address": "A11, 28300 Gasville-Ois\u00e8me, France",
+              "lat": 48.46687,
+              "lng": 1.57933
+            },
+            "distance": 223641
+          },
+          {
+            "type": "stop",
+            "route_id": 2163547823,
+            "start": {
+              "time": "2021-05-26T14:57:25Z",
+              "address": "A11, 28300 Gasville-Ois\u00e8me, France",
+              "lat": 48.46687,
+              "lng": 1.57933
+            },
+            "end": {
+              "time": "2021-05-26T15:26:01Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163608891,
+            "start": {
+              "time": "2021-05-26T15:26:01Z",
+              "address": "A11, 28300 Gasville-Ois\u00e8me, France",
+              "lat": 48.46694,
+              "lng": 1.57976
+            },
+            "avg_speed": 44,
+            "max_speed": 99,
+            "end": {
+              "time": "2021-05-26T17:15:13Z",
+              "address": "174 Avenue de la R\u00e9publique, 94700 Maisons-Alfort, France",
+              "lat": 48.80821,
+              "lng": 2.44897
+            },
+            "distance": 81495
+          },
+          {
+            "type": "stop",
+            "route_id": 2163799181,
+            "start": {
+              "time": "2021-05-26T17:15:13Z",
+              "address": "174 Avenue de la R\u00e9publique, 94700 Maisons-Alfort, France",
+              "lat": 48.80821,
+              "lng": 2.44897
+            },
+            "end": {
+              "time": "2021-05-26T17:18:32Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163802395,
+            "start": {
+              "time": "2021-05-26T17:18:32Z",
+              "address": "80 Rue de Gravelle, 94700 Maisons-Alfort, France",
+              "lat": 48.81086,
+              "lng": 2.44911
+            },
+            "avg_speed": 63,
+            "max_speed": 94,
+            "end": {
+              "time": "2021-05-26T17:40:45Z",
+              "address": "E50, 77600 Bussy-Saint-Georges, France",
+              "lat": 48.8286,
+              "lng": 2.74392
+            },
+            "distance": 23632
+          },
+          {
+            "type": "stop",
+            "route_id": 2163834355,
+            "start": {
+              "time": "2021-05-26T17:40:45Z",
+              "address": "E50, 77600 Bussy-Saint-Georges, France",
+              "lat": 48.8286,
+              "lng": 2.74392
+            },
+            "end": {
+              "time": "2021-05-26T17:49:20Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163844499,
+            "start": {
+              "time": "2021-05-26T17:49:20Z",
+              "address": "E50, 77600 Bussy-Saint-Georges, France",
+              "lat": 48.82862,
+              "lng": 2.74391
+            },
+            "avg_speed": 83,
+            "max_speed": 108,
+            "end": {
+              "time": "2021-05-26T18:39:28Z",
+              "address": "La Vente Jean Guillaume, 02130 Fresnes-en-Tardenois, France",
+              "lat": 49.12544,
+              "lng": 3.53536
+            },
+            "distance": 69582
+          },
+          {
+            "type": "stop",
+            "route_id": 2163904999,
+            "start": {
+              "time": "2021-05-26T18:39:28Z",
+              "address": "La Vente Jean Guillaume, 02130 Fresnes-en-Tardenois, France",
+              "lat": 49.12544,
+              "lng": 3.53536
+            },
+            "end": {
+              "time": "2021-05-26T18:50:29Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2163914291,
+            "start": {
+              "time": "2021-05-26T18:50:29Z",
+              "address": "La Vente Jean Guillaume, 02130 Fresnes-en-Tardenois, France",
+              "lat": 49.12537,
+              "lng": 3.53539
+            },
+            "avg_speed": 85,
+            "max_speed": 103,
+            "end": {
+              "time": "2021-05-26T21:00:00Z",
+              "address": "E50, 55400 Saint-Jean-l\u00e8s-Buzy, France",
+              "lat": 49.16086,
+              "lng": 5.7427
+            },
+            "distance": 183572
+          },
+          {
+            "type": "route",
+            "route_id": 2164060647,
+            "start": {
+              "time": "2021-05-26T21:00:00Z",
+              "address": "E50, 55400 Saint-Jean-l\u00e8s-Buzy, France",
+              "lat": 49.16086,
+              "lng": 5.7427
+            },
+            "avg_speed": 82,
+            "max_speed": 105,
+            "end": {
+              "time": "2021-05-26T21:56:15Z",
+              "address": "Aire De Service Longeville Sud, 57740 Longeville-l\u00e8s-Saint-Avold, France",
+              "lat": 49.13267,
+              "lng": 6.66102
+            },
+            "distance": 77717
+          },
+          {
+            "type": "stop",
+            "route_id": 2164211644,
+            "start": {
+              "time": "2021-05-26T21:56:15Z",
+              "address": "Aire De Service Longeville Sud, 57740 Longeville-l\u00e8s-Saint-Avold, France",
+              "lat": 49.13267,
+              "lng": 6.66102
+            },
+            "end": {
+              "time": "2021-05-26T22:02:58Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2164212215,
+            "start": {
+              "time": "2021-05-26T22:02:58Z",
+              "address": "Aire De Service Longeville Sud, 57740 Longeville-l\u00e8s-Saint-Avold, France",
+              "lat": 49.13264,
+              "lng": 6.66109
+            },
+            "avg_speed": 83,
+            "max_speed": 107,
+            "end": {
+              "time": "2021-05-27T00:57:51Z",
+              "address": "E50, 74189 Weinsberg, Germany",
+              "lat": 49.15695,
+              "lng": 9.31626
+            },
+            "distance": 243796
+          },
+          {
+            "type": "stop",
+            "route_id": 2164295986,
+            "start": {
+              "time": "2021-05-27T00:57:51Z",
+              "address": "E50, 74189 Weinsberg, Germany",
+              "lat": 49.15695,
+              "lng": 9.31626
+            },
+            "end": {
+              "time": "2021-05-27T01:06:31Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2164301766,
+            "start": {
+              "time": "2021-05-27T01:06:31Z",
+              "address": "E50, 74189 Weinsberg, Germany",
+              "lat": 49.15689,
+              "lng": 9.3164
+            },
+            "avg_speed": 87,
+            "max_speed": 107,
+            "end": {
+              "time": "2021-05-27T03:37:32Z",
+              "address": "Unnamed Road, 92546 Schmidgaden, Germany",
+              "lat": 49.44478,
+              "lng": 12.08566
+            },
+            "distance": 220158
+          },
+          {
+            "type": "stop",
+            "route_id": 2164428379,
+            "start": {
+              "time": "2021-05-27T03:37:32Z",
+              "address": "Unnamed Road, 92546 Schmidgaden, Germany",
+              "lat": 49.44478,
+              "lng": 12.08566
+            },
+            "end": {
+              "time": "2021-05-27T03:43:52Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2164436208,
+            "start": {
+              "time": "2021-05-27T03:43:52Z",
+              "address": "Unnamed Road, 92546 Schmidgaden, Germany",
+              "lat": 49.44481,
+              "lng": 12.08574
+            },
+            "avg_speed": 82,
+            "max_speed": 98,
+            "end": {
+              "time": "2021-05-27T06:02:13Z",
+              "address": "D5 - 5. km, LS, \u010d.p. 1434, 252 19 Rudn\u00e1, Czechia",
+              "lat": 50.03313,
+              "lng": 14.21689
+            },
+            "distance": 191196
+          },
+          {
+            "type": "stop",
+            "route_id": 2164741203,
+            "start": {
+              "time": "2021-05-27T06:02:13Z",
+              "address": "D5 - 5. km, LS, \u010d.p. 1434, 252 19 Rudn\u00e1, Czechia",
+              "lat": 50.03313,
+              "lng": 14.21689
+            },
+            "end": {
+              "time": "2021-05-27T15:04:48Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166323935,
+            "start": {
+              "time": "2021-05-27T15:04:48Z",
+              "address": "Rudn\u00e1 957, 252 19 Rudn\u00e1, Czechia",
+              "lat": 50.03332,
+              "lng": 14.21702
+            },
+            "avg_speed": 16,
+            "max_speed": 53,
+            "end": {
+              "time": "2021-05-27T15:19:27Z",
+              "address": "Chr\u00e1\u0161\u0165any 189, 252 19 Chr\u00e1\u0161\u0165any, Czechia",
+              "lat": 50.0487,
+              "lng": 14.26483
+            },
+            "distance": 3995
+          },
+          {
+            "type": "stop",
+            "route_id": 2166357148,
+            "start": {
+              "time": "2021-05-27T15:19:27Z",
+              "address": "Chr\u00e1\u0161\u0165any 189, 252 19 Chr\u00e1\u0161\u0165any, Czechia",
+              "lat": 50.0487,
+              "lng": 14.26483
+            },
+            "end": {
+              "time": "2021-05-27T15:22:57Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166361148,
+            "start": {
+              "time": "2021-05-27T15:22:57Z",
+              "address": "E50, 252 19 Chr\u00e1\u0161\u0165any, Czechia",
+              "lat": 50.04882,
+              "lng": 14.26751
+            },
+            "avg_speed": 54,
+            "max_speed": 102,
+            "end": {
+              "time": "2021-05-27T16:33:14Z",
+              "address": "E65, 257 26 V\u0161echlapy, Czechia",
+              "lat": 49.78034,
+              "lng": 14.93221
+            },
+            "distance": 63902
+          },
+          {
+            "type": "stop",
+            "route_id": 2166487361,
+            "start": {
+              "time": "2021-05-27T16:33:14Z",
+              "address": "E65, 257 26 V\u0161echlapy, Czechia",
+              "lat": 49.78034,
+              "lng": 14.93221
+            },
+            "end": {
+              "time": "2021-05-27T16:51:07Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166513122,
+            "start": {
+              "time": "2021-05-27T16:51:07Z",
+              "address": "E65, 257 26 V\u0161echlapy, Czechia",
+              "lat": 49.78025,
+              "lng": 14.9323
+            },
+            "avg_speed": 78,
+            "max_speed": 97,
+            "end": {
+              "time": "2021-05-27T18:55:57Z",
+              "address": "Blu\u010dina 702, 664 56 Blu\u010dina, Czechia",
+              "lat": 49.05435,
+              "lng": 16.66495
+            },
+            "distance": 163930
+          },
+          {
+            "type": "stop",
+            "route_id": 2166664669,
+            "start": {
+              "time": "2021-05-27T18:55:57Z",
+              "address": "Blu\u010dina 702, 664 56 Blu\u010dina, Czechia",
+              "lat": 49.05435,
+              "lng": 16.66495
+            },
+            "end": {
+              "time": "2021-05-27T19:07:34Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166676462,
+            "start": {
+              "time": "2021-05-27T19:07:34Z",
+              "address": "Blu\u010dina 702, 664 56 Blu\u010dina, Czechia",
+              "lat": 49.05445,
+              "lng": 16.66501
+            },
+            "avg_speed": 77,
+            "max_speed": 97,
+            "end": {
+              "time": "2021-05-27T21:00:00Z",
+              "address": "Lev\u00e9l, M1, 9221 Hungary",
+              "lat": 47.88485,
+              "lng": 17.19057
+            },
+            "distance": 145782
+          },
+          {
+            "type": "route",
+            "route_id": 2166800065,
+            "start": {
+              "time": "2021-05-27T21:00:00Z",
+              "address": "Lev\u00e9l, M1, 9221 Hungary",
+              "lat": 47.88485,
+              "lng": 17.19057
+            },
+            "avg_speed": 39,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-27T21:10:36Z",
+              "address": "Mosonmagyar\u00f3v\u00e1r, Lajta Pihen\u0151hely, 9200 Hungary",
+              "lat": 47.84289,
+              "lng": 17.25811
+            },
+            "distance": 6943
+          },
+          {
+            "type": "stop",
+            "route_id": 2166827702,
+            "start": {
+              "time": "2021-05-27T21:10:36Z",
+              "address": "Mosonmagyar\u00f3v\u00e1r, Lajta Pihen\u0151hely, 9200 Hungary",
+              "lat": 47.84289,
+              "lng": 17.25811
+            },
+            "end": {
+              "time": "2021-05-27T21:43:30Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166859535,
+            "start": {
+              "time": "2021-05-27T21:43:30Z",
+              "address": "Mosonmagyar\u00f3v\u00e1r, Lajta Pihen\u0151hely, 9200 Hungary",
+              "lat": 47.84287,
+              "lng": 17.25813
+            },
+            "avg_speed": 87,
+            "max_speed": 100,
+            "end": {
+              "time": "2021-05-27T23:02:08Z",
+              "address": "\u00d3barok M1, 2063 Hungary",
+              "lat": 47.50356,
+              "lng": 18.5477
+            },
+            "distance": 114698
+          },
+          {
+            "type": "stop",
+            "route_id": 2166945420,
+            "start": {
+              "time": "2021-05-27T23:02:08Z",
+              "address": "\u00d3barok M1, 2063 Hungary",
+              "lat": 47.50356,
+              "lng": 18.5477
+            },
+            "end": {
+              "time": "2021-05-27T23:08:50Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166948334,
+            "start": {
+              "time": "2021-05-27T23:08:50Z",
+              "address": "\u00d3barok, M1, 2063 Hungary",
+              "lat": 47.50346,
+              "lng": 18.5477
+            },
+            "avg_speed": 81,
+            "max_speed": 101,
+            "end": {
+              "time": "2021-05-27T23:43:01Z",
+              "address": "Szigetszentmikl\u00f3s, M0, 2310 Hungary",
+              "lat": 47.37962,
+              "lng": 19.05349
+            },
+            "distance": 46284
+          },
+          {
+            "type": "stop",
+            "route_id": 2166971506,
+            "start": {
+              "time": "2021-05-27T23:43:01Z",
+              "address": "Szigetszentmikl\u00f3s, M0, 2310 Hungary",
+              "lat": 47.37962,
+              "lng": 19.05349
+            },
+            "end": {
+              "time": "2021-05-27T23:46:56Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166972520,
+            "start": {
+              "time": "2021-05-27T23:46:56Z",
+              "address": "Szigetszentmikl\u00f3s, M0, 2310 Hungary",
+              "lat": 47.37956,
+              "lng": 19.05352
+            },
+            "avg_speed": 12,
+            "max_speed": 11,
+            "end": {
+              "time": "2021-05-27T23:47:21Z",
+              "address": "Szigetszentmikl\u00f3s, 50613, 2310 Hungary",
+              "lat": 47.37909,
+              "lng": 19.05384
+            },
+            "distance": 90
+          },
+          {
+            "type": "stop",
+            "route_id": 2166972521,
+            "start": {
+              "time": "2021-05-27T23:47:21Z",
+              "address": "Szigetszentmikl\u00f3s, 50613, 2310 Hungary",
+              "lat": 47.37909,
+              "lng": 19.05384
+            },
+            "end": {
+              "time": "2021-05-27T23:51:15Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166975218,
+            "start": {
+              "time": "2021-05-27T23:51:15Z",
+              "address": "Szigetszentmikl\u00f3s, 50613, 2310 Hungary",
+              "lat": 47.3791,
+              "lng": 19.0539
+            },
+            "avg_speed": 10,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-27T23:51:33Z",
+              "address": "Szigetszentmikl\u00f3s, E71 6118, 2310 Hungary",
+              "lat": 47.37915,
+              "lng": 19.05442
+            },
+            "distance": 51
+          },
+          {
+            "type": "stop",
+            "route_id": 2166975221,
+            "start": {
+              "time": "2021-05-27T23:51:33Z",
+              "address": "Szigetszentmikl\u00f3s, E71 6118, 2310 Hungary",
+              "lat": 47.37915,
+              "lng": 19.05442
+            },
+            "end": {
+              "time": "2021-05-28T00:04:46Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2166986328,
+            "start": {
+              "time": "2021-05-28T00:04:46Z",
+              "address": "Szigetszentmikl\u00f3s, E71 6118, 2310 Hungary",
+              "lat": 47.37914,
+              "lng": 19.05445
+            },
+            "avg_speed": 85,
+            "max_speed": 95,
+            "end": {
+              "time": "2021-05-28T02:32:20Z",
+              "address": "Nagylak, 43, 6933 Hungary",
+              "lat": 46.16745,
+              "lng": 20.71348
+            },
+            "distance": 209393
+          },
+          {
+            "type": "stop",
+            "route_id": 2167095836,
+            "start": {
+              "time": "2021-05-28T02:32:20Z",
+              "address": "Nagylak, 43, 6933 Hungary",
+              "lat": 46.16745,
+              "lng": 20.71348
+            },
+            "end": {
+              "time": "2021-05-28T02:36:34Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2167096415,
+            "start": {
+              "time": "2021-05-28T02:36:34Z",
+              "address": "Nagylak, 43, 6933 Hungary",
+              "lat": 46.16753,
+              "lng": 20.71389
+            },
+            "avg_speed": 2,
+            "max_speed": 17,
+            "end": {
+              "time": "2021-05-28T02:50:11Z",
+              "address": "Punct control trecere frontiera, N\u0103dlac 315500, Romania",
+              "lat": 46.16711,
+              "lng": 20.7199
+            },
+            "distance": 665
+          },
+          {
+            "type": "stop",
+            "route_id": 2167098845,
+            "start": {
+              "time": "2021-05-28T02:50:11Z",
+              "address": "Punct control trecere frontiera, N\u0103dlac 315500, Romania",
+              "lat": 46.16711,
+              "lng": 20.7199
+            },
+            "end": {
+              "time": "2021-05-28T03:16:24Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2167121646,
+            "start": {
+              "time": "2021-05-28T03:16:24Z",
+              "address": "Punct control trecere frontiera, N\u0103dlac 315500, Romania",
+              "lat": 46.16711,
+              "lng": 20.71991
+            },
+            "avg_speed": 8,
+            "max_speed": 18,
+            "end": {
+              "time": "2021-05-28T03:18:58Z",
+              "address": "DN7, N\u0103dlac 315500, Romania",
+              "lat": 46.1668,
+              "lng": 20.72427
+            },
+            "distance": 357
+          },
+          {
+            "type": "stop",
+            "route_id": 2167122625,
+            "start": {
+              "time": "2021-05-28T03:18:58Z",
+              "address": "DN7, N\u0103dlac 315500, Romania",
+              "lat": 46.1668,
+              "lng": 20.72427
+            },
+            "end": {
+              "time": "2021-05-28T03:26:07Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2167132957,
+            "start": {
+              "time": "2021-05-28T03:26:07Z",
+              "address": "DN7, N\u0103dlac 315500, Romania",
+              "lat": 46.16681,
+              "lng": 20.72433
+            },
+            "avg_speed": 71,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-28T03:59:07Z",
+              "address": "DN7, 317235, Romania",
+              "lat": 46.18393,
+              "lng": 21.12788
+            },
+            "distance": 39577
+          },
+          {
+            "type": "stop",
+            "route_id": 2167169133,
+            "start": {
+              "time": "2021-05-28T03:59:07Z",
+              "address": "DN7, 317235, Romania",
+              "lat": 46.18393,
+              "lng": 21.12788
+            },
+            "end": {
+              "time": "2021-05-28T04:04:32Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2167180405,
+            "start": {
+              "time": "2021-05-28T04:04:32Z",
+              "address": "DN7, 317235, Romania",
+              "lat": 46.18396,
+              "lng": 21.12789
+            },
+            "avg_speed": 74,
+            "max_speed": 99,
+            "end": {
+              "time": "2021-05-28T07:03:44Z",
+              "address": "E70, Romania",
+              "lat": 44.92788,
+              "lng": 22.35349
+            },
+            "distance": 221325
+          },
+          {
+            "type": "stop",
+            "route_id": 2167631112,
+            "start": {
+              "time": "2021-05-28T07:03:44Z",
+              "address": "E70, Romania",
+              "lat": 44.92788,
+              "lng": 22.35349
+            },
+            "end": {
+              "time": "2021-05-28T07:08:12Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2167640271,
+            "start": {
+              "time": "2021-05-28T07:08:12Z",
+              "address": "E70, Romania",
+              "lat": 44.92766,
+              "lng": 22.35358
+            },
+            "avg_speed": 67,
+            "max_speed": 92,
+            "end": {
+              "time": "2021-05-28T09:18:59Z",
+              "address": "E79, Romania",
+              "lat": 44.00227,
+              "lng": 22.98711
+            },
+            "distance": 147086
+          },
+          {
+            "type": "stop",
+            "route_id": 2168068940,
+            "start": {
+              "time": "2021-05-28T09:18:59Z",
+              "address": "E79, Romania",
+              "lat": 44.00227,
+              "lng": 22.98711
+            },
+            "end": {
+              "time": "2021-05-28T09:23:26Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2168084764,
+            "start": {
+              "time": "2021-05-28T09:23:26Z",
+              "address": "E79, Romania",
+              "lat": 44.00227,
+              "lng": 22.98702
+            },
+            "avg_speed": 35,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-28T10:08:18Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.9111,
+              "lng": 22.82344
+            },
+            "distance": 26783
+          },
+          {
+            "type": "stop",
+            "route_id": 2168266618,
+            "start": {
+              "time": "2021-05-28T10:08:18Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.9111,
+              "lng": 22.82344
+            },
+            "end": {
+              "time": "2021-05-28T10:17:50Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2168266621,
+            "start": {
+              "time": "2021-05-28T10:17:50Z",
+              "address": "\u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u0435\u043d \u043f\u044a\u0442 \u0415 79 \u043f\u0440\u0438 \u0433\u0440. \u0414\u0443\u043d\u0430\u0432\u0446\u0438, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91146,
+              "lng": 22.82328
+            },
+            "avg_speed": 5,
+            "max_speed": 7,
+            "end": {
+              "time": "2021-05-28T10:19:38Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91071,
+              "lng": 22.82332
+            },
+            "distance": 160
+          },
+          {
+            "type": "stop",
+            "route_id": 2168294107,
+            "start": {
+              "time": "2021-05-28T10:19:38Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91071,
+              "lng": 22.82332
+            },
+            "end": {
+              "time": "2021-05-28T10:23:01Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2168294111,
+            "start": {
+              "time": "2021-05-28T10:23:01Z",
+              "address": "\u041c\u0430\u0440\u0448\u0430\u043b \u0422\u043e\u043b\u0431\u0443\u0445\u0438\u043d, 3740 Dunavtsi, Bulgaria",
+              "lat": 43.91069,
+              "lng": 22.82328
+            },
+            "avg_speed": 68,
+            "max_speed": 104,
+            "end": {
+              "time": "2021-05-28T11:54:51Z",
+              "address": "1, 3491 Sumer, Bulgaria",
+              "lat": 43.34642,
+              "lng": 23.32696
+            },
+            "distance": 104901
+          },
+          {
+            "type": "stop",
+            "route_id": 2168615663,
+            "start": {
+              "time": "2021-05-28T11:54:51Z",
+              "address": "1, 3491 Sumer, Bulgaria",
+              "lat": 43.34642,
+              "lng": 23.32696
+            },
+            "end": {
+              "time": "2021-05-28T11:57:28Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2168634892,
+            "start": {
+              "time": "2021-05-28T11:57:28Z",
+              "address": "1, 3491 Sumer, Bulgaria",
+              "lat": 43.34644,
+              "lng": 23.32695
+            },
+            "avg_speed": 65,
+            "max_speed": 98,
+            "end": {
+              "time": "2021-05-28T13:14:37Z",
+              "address": "Avtomagistrala \"Hemus\", 2140 Botevgrad, Bulgaria",
+              "lat": 42.86844,
+              "lng": 23.79732
+            },
+            "distance": 84277
+          },
+          {
+            "type": "stop",
+            "route_id": 2168911861,
+            "start": {
+              "time": "2021-05-28T13:14:37Z",
+              "address": "Avtomagistrala \"Hemus\", 2140 Botevgrad, Bulgaria",
+              "lat": 42.86844,
+              "lng": 23.79732
+            },
+            "end": {
+              "time": "2021-05-28T13:18:02Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2168933005,
+            "start": {
+              "time": "2021-05-28T13:18:02Z",
+              "address": "Avtomagistrala \"Hemus\", 2140 Botevgrad, Bulgaria",
+              "lat": 42.86293,
+              "lng": 23.79535
+            },
+            "avg_speed": 68,
+            "max_speed": 114,
+            "end": {
+              "time": "2021-05-28T15:28:02Z",
+              "address": "II-37 55, 4409 Glavinitsa, Bulgaria",
+              "lat": 42.15655,
+              "lng": 24.31213
+            },
+            "distance": 148080
+          },
+          {
+            "type": "stop",
+            "route_id": 2169266181,
+            "start": {
+              "time": "2021-05-28T15:28:02Z",
+              "address": "II-37 55, 4409 Glavinitsa, Bulgaria",
+              "lat": 42.15655,
+              "lng": 24.31213
+            },
+            "end": {
+              "time": "2021-05-28T15:31:17Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2169274791,
+            "start": {
+              "time": "2021-05-28T15:31:17Z",
+              "address": "II-37 55, 4409 Glavinitsa, Bulgaria",
+              "lat": 42.15649,
+              "lng": 24.31203
+            },
+            "avg_speed": 30,
+            "max_speed": 62,
+            "end": {
+              "time": "2021-05-28T16:04:16Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.0569,
+              "lng": 24.33
+            },
+            "distance": 16685
+          },
+          {
+            "type": "stop",
+            "route_id": 2169336233,
+            "start": {
+              "time": "2021-05-28T16:04:16Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.0569,
+              "lng": 24.33
+            },
+            "end": {
+              "time": "2021-05-28T16:24:35Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2169368465,
+            "start": {
+              "time": "2021-05-28T16:24:35Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05693,
+              "lng": 24.33001
+            },
+            "avg_speed": 3,
+            "max_speed": 8,
+            "end": {
+              "time": "2021-05-28T16:30:01Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05689,
+              "lng": 24.3278
+            },
+            "distance": 301
+          },
+          {
+            "type": "stop",
+            "route_id": 2169381812,
+            "start": {
+              "time": "2021-05-28T16:30:01Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05689,
+              "lng": 24.3278
+            },
+            "end": {
+              "time": "2021-05-28T16:51:14Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2169417643,
+            "start": {
+              "time": "2021-05-28T16:51:14Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05682,
+              "lng": 24.32774
+            },
+            "avg_speed": 19,
+            "max_speed": 24,
+            "end": {
+              "time": "2021-05-28T16:51:52Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05716,
+              "lng": 24.32999
+            },
+            "distance": 211
+          },
+          {
+            "type": "stop",
+            "route_id": 2169417644,
+            "start": {
+              "time": "2021-05-28T16:51:52Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05716,
+              "lng": 24.32999
+            },
+            "end": {
+              "time": "2021-05-28T17:48:14Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2169500745,
+            "start": {
+              "time": "2021-05-28T17:48:14Z",
+              "address": "Unnamed Road, 4550, Bulgaria",
+              "lat": 42.05705,
+              "lng": 24.33007
+            },
+            "avg_speed": 36,
+            "max_speed": 101,
+            "end": {
+              "time": "2021-05-28T18:13:07Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14226,
+              "lng": 24.29236
+            },
+            "distance": 15146
+          },
+          {
+            "type": "stop",
+            "route_id": 2169530251,
+            "start": {
+              "time": "2021-05-28T18:13:07Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14226,
+              "lng": 24.29236
+            },
+            "end": {
+              "time": "2021-05-28T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2169733524,
+            "start": {
+              "time": "2021-05-28T21:00:00Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14226,
+              "lng": 24.29236
+            },
+            "end": {
+              "time": "2021-05-29T05:42:15Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2170139381,
+            "start": {
+              "time": "2021-05-29T05:42:15Z",
+              "address": "\u0443\u043b\u0438\u0446\u0430 \u0425\u0430\u043d \u041a\u0440\u0443\u043c 8, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14193,
+              "lng": 24.29225
+            },
+            "avg_speed": 3,
+            "max_speed": 7,
+            "end": {
+              "time": "2021-05-29T05:43:46Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14168,
+              "lng": 24.29247
+            },
+            "distance": 97
+          },
+          {
+            "type": "stop",
+            "route_id": 2170140232,
+            "start": {
+              "time": "2021-05-29T05:43:46Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14168,
+              "lng": 24.29247
+            },
+            "end": {
+              "time": "2021-05-29T06:54:52Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2170226974,
+            "start": {
+              "time": "2021-05-29T06:54:52Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14148,
+              "lng": 24.29241
+            },
+            "avg_speed": 21,
+            "max_speed": 91,
+            "end": {
+              "time": "2021-05-29T07:04:33Z",
+              "address": "II-37 55, 4409 Glavinitsa, Bulgaria",
+              "lat": 42.15653,
+              "lng": 24.31205
+            },
+            "distance": 3407
+          },
+          {
+            "type": "stop",
+            "route_id": 2170239290,
+            "start": {
+              "time": "2021-05-29T07:04:33Z",
+              "address": "II-37 55, 4409 Glavinitsa, Bulgaria",
+              "lat": 42.15653,
+              "lng": 24.31205
+            },
+            "end": {
+              "time": "2021-05-29T07:12:02Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2170247980,
+            "start": {
+              "time": "2021-05-29T07:12:02Z",
+              "address": "II-37 55, 4409 Glavinitsa, Bulgaria",
+              "lat": 42.15654,
+              "lng": 24.31207
+            },
+            "avg_speed": 32,
+            "max_speed": 90,
+            "end": {
+              "time": "2021-05-29T07:24:54Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18954,
+              "lng": 24.35238
+            },
+            "distance": 6888
+          },
+          {
+            "type": "stop",
+            "route_id": 2170266557,
+            "start": {
+              "time": "2021-05-29T07:24:54Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18954,
+              "lng": 24.35238
+            },
+            "end": {
+              "time": "2021-05-29T07:30:16Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2170271136,
+            "start": {
+              "time": "2021-05-29T07:30:16Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18959,
+              "lng": 24.35236
+            },
+            "avg_speed": 33,
+            "max_speed": 72,
+            "end": {
+              "time": "2021-05-29T07:40:14Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18303,
+              "lng": 24.30055
+            },
+            "distance": 5498
+          },
+          {
+            "type": "stop",
+            "route_id": 2170283858,
+            "start": {
+              "time": "2021-05-29T07:40:14Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18303,
+              "lng": 24.30055
+            },
+            "end": {
+              "time": "2021-05-29T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2171210555,
+            "start": {
+              "time": "2021-05-29T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18303,
+              "lng": 24.30055
+            },
+            "end": {
+              "time": "2021-05-30T05:31:33Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2171546903,
+            "start": {
+              "time": "2021-05-30T05:31:33Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18304,
+              "lng": 24.301
+            },
+            "avg_speed": 25,
+            "max_speed": 75,
+            "end": {
+              "time": "2021-05-30T05:44:19Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18958,
+              "lng": 24.35232
+            },
+            "distance": 5446
+          },
+          {
+            "type": "stop",
+            "route_id": 2171554679,
+            "start": {
+              "time": "2021-05-30T05:44:19Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18958,
+              "lng": 24.35232
+            },
+            "end": {
+              "time": "2021-05-30T05:49:38Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2171556280,
+            "start": {
+              "time": "2021-05-30T05:49:38Z",
+              "address": "ul. \"Spartak\" 30, 4401 Pazardzhik, Bulgaria",
+              "lat": 42.18957,
+              "lng": 24.35202
+            },
+            "avg_speed": 4,
+            "max_speed": 9,
+            "end": {
+              "time": "2021-05-30T05:51:36Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18908,
+              "lng": 24.35259
+            },
+            "distance": 151
+          },
+          {
+            "type": "stop",
+            "route_id": 2171557126,
+            "start": {
+              "time": "2021-05-30T05:51:36Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18908,
+              "lng": 24.35259
+            },
+            "end": {
+              "time": "2021-05-30T11:24:01Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2171802314,
+            "start": {
+              "time": "2021-05-30T11:24:01Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18906,
+              "lng": 24.35258
+            },
+            "avg_speed": 32,
+            "max_speed": 72,
+            "end": {
+              "time": "2021-05-30T11:36:14Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.30067
+            },
+            "distance": 6566
+          },
+          {
+            "type": "stop",
+            "route_id": 2171812224,
+            "start": {
+              "time": "2021-05-30T11:36:14Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.30067
+            },
+            "end": {
+              "time": "2021-05-30T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2172320332,
+            "start": {
+              "time": "2021-05-30T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18302,
+              "lng": 24.30067
+            },
+            "end": {
+              "time": "2021-05-31T11:47:16Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2173940304,
+            "start": {
+              "time": "2021-05-31T11:47:16Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.183,
+              "lng": 24.30069
+            },
+            "avg_speed": 27,
+            "max_speed": 71,
+            "end": {
+              "time": "2021-05-31T12:03:40Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14174,
+              "lng": 24.29443
+            },
+            "distance": 7569
+          },
+          {
+            "type": "stop",
+            "route_id": 2173983871,
+            "start": {
+              "time": "2021-05-31T12:03:40Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14174,
+              "lng": 24.29443
+            },
+            "end": {
+              "time": "2021-05-31T13:35:19Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2174233501,
+            "start": {
+              "time": "2021-05-31T13:35:19Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.1415,
+              "lng": 24.2948
+            },
+            "avg_speed": 154,
+            "max_speed": 0,
+            "end": {
+              "time": "2021-05-31T13:35:20Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14149,
+              "lng": 24.29482
+            },
+            "distance": 43
+          },
+          {
+            "type": "stop",
+            "route_id": 2174233503,
+            "start": {
+              "time": "2021-05-31T13:35:20Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14149,
+              "lng": 24.29482
+            },
+            "end": {
+              "time": "2021-05-31T13:38:52Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2174242893,
+            "start": {
+              "time": "2021-05-31T13:38:52Z",
+              "address": "Unnamed Road, 4411 Aleko Konstantinovo, Bulgaria",
+              "lat": 42.14149,
+              "lng": 24.29494
+            },
+            "avg_speed": 31,
+            "max_speed": 82,
+            "end": {
+              "time": "2021-05-31T13:54:06Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18297,
+              "lng": 24.30073
+            },
+            "distance": 7927
+          },
+          {
+            "type": "stop",
+            "route_id": 2174273980,
+            "start": {
+              "time": "2021-05-31T13:54:06Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18297,
+              "lng": 24.30073
+            },
+            "end": {
+              "time": "2021-05-31T21:00:00Z"
+            }
+          },
+          {
+            "type": "stop",
+            "route_id": 2174939344,
+            "start": {
+              "time": "2021-05-31T21:00:00Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18297,
+              "lng": 24.30073
+            },
+            "end": {
+              "time": "2021-06-01T05:58:35Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2175638149,
+            "start": {
+              "time": "2021-06-01T05:58:35Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18297,
+              "lng": 24.30068
+            },
+            "avg_speed": 23,
+            "max_speed": 57,
+            "end": {
+              "time": "2021-06-01T06:12:39Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18949,
+              "lng": 24.35238
+            },
+            "distance": 5437
+          },
+          {
+            "type": "stop",
+            "route_id": 2175676781,
+            "start": {
+              "time": "2021-06-01T06:12:39Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18949,
+              "lng": 24.35238
+            },
+            "end": {
+              "time": "2021-06-01T11:27:23Z"
+            }
+          },
+          {
+            "type": "route",
+            "route_id": 2176750719,
+            "start": {
+              "time": "2021-06-01T11:27:23Z",
+              "address": "ul. \"Spartak\" 286, 4401 Iztok, Pazardzhik, Bulgaria",
+              "lat": 42.18966,
+              "lng": 24.35247
+            },
+            "avg_speed": 27,
+            "max_speed": 57,
+            "end": {
+              "time": "2021-06-01T11:39:27Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18269,
+              "lng": 24.30063
+            },
+            "distance": 5488
+          },
+          {
+            "type": "stop",
+            "route_id": 2176784352,
+            "start": {
+              "time": "2021-06-01T11:39:27Z",
+              "address": "\u0443\u043b. \u201e\u0425\u0440\u0438\u0441\u0442\u043e \u041a\u0430\u0441\u0430\u0431\u0432\u0435\u043b\u0435\u0432\u201c 29, 4400 Pazardzhik, Bulgaria",
+              "lat": 42.18269,
+              "lng": 24.30063
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

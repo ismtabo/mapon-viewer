@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,go
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,go
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,go,dotenv
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,go,dotenv
 
 ### Go ###
 # Binaries for programs and plugins
@@ -41,4 +41,7 @@
 # Logs files
 *.log
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,go
+### dotenv ###
+.env
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,go,dotenv

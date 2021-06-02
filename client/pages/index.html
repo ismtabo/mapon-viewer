@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <!-- Geolib -->
+    <script src="https://cdn.jsdelivr.net/npm/geolib@3.3.1/lib/index.min.js"></script>
+    <title>Mapon viewer</title>
+</head>
+
+<body class="d-flex flex-column" style="height: 100vh;">
+    <div class="navbar navbar-expand-md navbar-dark bg-dark p-2" role="navigation">
+        <a class="navbar-brand" href="#">Mapon WebApp</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" onclick="logout(event)">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <main role="main" class="bg-dark w-100 h-100 p-1">
+        <div class="row w-100 h-100">
+            <div id="map" class="col-9"></div>
+            <div class="bg-light col-3 d-flex flex-column gap-3">
+                <div class="w-100">
+                    <h3>Data range</h3>
+                    <hr>
+                    <div id="daterange-picker">
+                        <div class="form-text">
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">Start</span>
+                                <input type="text" name="start" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-sm">
+                            </div>
+                        </div>
+                        <div class="form-text">
+                            <div class="input-group input-group-sm mb-3">
+                                <span class="input-group-text" id="inputGroup-sizing-sm">End</span>
+                                <input type="text" name="end" class="form-control" aria-label="Sizing example input"
+                                    aria-describedby="inputGroup-sizing-sm">
+                            </div>
+                        </div>
+                        <button type="button button-primary" class="btn btn-primary" onclick="refreshData()">Refresh <i
+                                class="bi bi-arrow-clockwise"></i></button>
+                    </div>
+                </div>
+                <div class="w-100">
+                    <h3>Show/Hide markers</h3>
+                    <hr>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked
+                            onchange="toggleShowStops(event)">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Stops
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked
+                            onchange="toggleShowRoute(event)">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Route
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <svg class="bd-placeholder-img rounded me-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#df2621"></rect>
+                </svg>
+                <strong class="me-auto">Error</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Could not retrieve data from server.
+            </div>
+        </div>
+    </div>
+    <script>
+        const geolib = window.geolib;
+        const elem = document.getElementById('daterange-picker');
+        const rangepicker = new DateRangePicker(elem, {});
+        const now = new Date();
+        const monthAgo = new Date();
+        monthAgo.setDate(now.getDate() - 30);
+        rangepicker.setDates(monthAgo, now);
+
+        const toastEl = document.getElementById('liveToast')
+        const toast = new bootstrap.Toast(toastEl)
+
+        const map = L.map('map').setView([0, 0], 0);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+        const stopsLayer = L.layerGroup().addTo(map);
+        const routerLayer = L.layerGroup().addTo(map);
+        refreshData()
+
+        function logout() {
+            fetch("/auth/logout", {
+                method: "POST",
+                credentials: 'include'
+            }).then(res => window.location = "/login")
+        }
+
+        function toggleShowStops(event) {
+            if (stopsLayer != null && map != null) {
+                if (event.target.checked && !map.hasLayer(stopsLayer)) {
+                    map.addLayer(stopsLayer)
+                } else if (map.hasLayer(stopsLayer)) {
+                    map.removeLayer(stopsLayer)
+                }
+            }
+        }
+
+        function toggleShowRoute(event) {
+            if (routerLayer != null && map != null) {
+                if (event.target.checked && !map.hasLayer(routerLayer)) {
+                    map.addLayer(routerLayer)
+                } else if (map.hasLayer(routerLayer)) {
+                    map.removeLayer(routerLayer)
+                }
+            }
+        }
+
+        async function refreshData() {
+            const [from, till] = rangepicker.getDates();
+            const searchParams = new URLSearchParams();
+            searchParams.append("from", from.toISOString());
+            searchParams.append("till", till.toISOString());
+            const res = await fetch("/api/mapon?" + searchParams.toString(), { credentials: 'include' })
+            if (!res.ok) {
+                return showToast()
+            }
+            let { stops, route } = await res.json()
+            stops = stops.map((point) => [point.lat, point.lng])
+            route = route.map((point) => [point.lat, point.lng])
+            const { latitude, longitude } = geolib.getCenterOfBounds(stops.map(([lat, lng]) => ({ latitude: lat, longitude: lng })))
+            map.setView([latitude, longitude], 5)
+            stopsLayer.clearLayers();
+            routerLayer.clearLayers();
+            stopsMarkers = stops.map(stop => L.marker(stop).addTo(stopsLayer));
+            routeLine = L.polyline(route, { color: 'red' }).addTo(routerLayer);
+        }
+
+        async function showToast() {
+            toast.show()
+        }
+    </script>
+</body>
+
+</html>

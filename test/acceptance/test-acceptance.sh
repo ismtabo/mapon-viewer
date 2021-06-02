@@ -19,5 +19,4 @@ dockerize -timeout 300s \
 
 # Launch acceptance tests
 go test --godog.tags="${GODOG_TAGS}" \
-        --godog.concurrency="${GODOG_CONCURRENCY}" \
         --godog.format="${GODOG_FORMAT}"
