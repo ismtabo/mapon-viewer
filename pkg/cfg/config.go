@@ -16,8 +16,8 @@ type SessionConfig struct {
 }
 
 type MaponConfig struct {
-	URL       string `yaml:"url" envconfig:"MAPON_URL"`
-	Key       string `yaml:"key" envconfig:"MAPON_KEY"`
+	URL       string     `yaml:"url" envconfig:"MAPON_URL"`
+	Key       SafeString `yaml:"key" envconfig:"MAPON_KEY"`
 	Endpoints struct {
 		Unit  string `yaml:"unit" envconfig:"MAPON_ENDPOINTS_UNIT"`
 		Route string `yaml:"route" envconfig:"MAPON_ENDPOINTS_ROUTE"`
