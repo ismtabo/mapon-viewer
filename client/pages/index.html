@@ -16,19 +16,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/css/datepicker.min.css">
     <script src="https://cdn.jsdelivr.net/npm/vanillajs-datepicker@1.1.4/dist/js/datepicker-full.min.js"></script>
     <!-- Leaflet -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin="" />
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <!-- Geolib -->
     <script src="https://cdn.jsdelivr.net/npm/geolib@3.3.1/lib/index.min.js"></script>
     <title>Mapon viewer</title>
 </head>
 
-<body class="d-flex flex-column" style="height: 100vh;">
+<body class="d-flex flex-column" style="height: 100vh">
     <div class="navbar navbar-expand-md navbar-dark bg-dark p-2" role="navigation">
         <a class="navbar-brand" href="#">Mapon WebApp</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
@@ -51,19 +48,13 @@
                 <div class="w-100">
                     <h3>Data range</h3>
                     <hr>
-                    <div id="daterange-picker">
+                    <div id="date-range-picker">
                         <div class="form-text">
-                            <div class="input-group input-group-sm mb-3">
-                                <span class="input-group-text" id="inputGroup-sizing-sm">Start</span>
-                                <input type="text" name="start" class="form-control" aria-label="Sizing example input"
-                                    aria-describedby="inputGroup-sizing-sm">
-                            </div>
-                        </div>
-                        <div class="form-text">
-                            <div class="input-group input-group-sm mb-3">
-                                <span class="input-group-text" id="inputGroup-sizing-sm">End</span>
-                                <input type="text" name="end" class="form-control" aria-label="Sizing example input"
-                                    aria-describedby="inputGroup-sizing-sm">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="From" aria-label="From"
+                                    name="start">
+                                <span class="input-group-text">to</span>
+                                <input type="text" class="form-control" placeholder="Till" aria-label="Till" name="end">
                             </div>
                         </div>
                         <button type="button button-primary" class="btn btn-primary" onclick="refreshData()">Refresh <i
@@ -107,23 +98,24 @@
         </div>
     </div>
     <script>
-        const geolib = window.geolib;
-        const elem = document.getElementById('daterange-picker');
-        const rangepicker = new DateRangePicker(elem, {});
-        const now = new Date();
-        const monthAgo = new Date();
-        monthAgo.setDate(now.getDate() - 30);
-        rangepicker.setDates(monthAgo, now);
+        const geolib = window.geolib
+        const elem = document.getElementById('date-range-picker')
+        const dateRangePicker = new DateRangePicker(elem, {})
+        const till = new Date()
+        const from = new Date()
+        from.setDate(till.getDate() - 1)
+        dateRangePicker.setDates(from, till)
 
         const toastEl = document.getElementById('liveToast')
         const toast = new bootstrap.Toast(toastEl)
 
-        const map = L.map('map').setView([0, 0], 0);
+        const map = L.map('map').setView([0, 0], 0)
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-        const stopsLayer = L.layerGroup().addTo(map);
-        const routerLayer = L.layerGroup().addTo(map);
+            attribution: '&copy <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map)
+        const router = L.routing.mapbox('pk.eyJ1IjoiaXNtdGFibyIsImEiOiJja3BoMHN1bjcwMjJmMnhtbWU5NTgwaGxiIn0.8P35lR4Tt81esGAdGlT4pg')
+        const stopsLayer = L.layerGroup().addTo(map)
+        const routesLayer = L.layerGroup().addTo(map)
         refreshData()
 
         function logout() {
@@ -144,33 +136,58 @@
         }
 
         function toggleShowRoute(event) {
-            if (routerLayer != null && map != null) {
-                if (event.target.checked && !map.hasLayer(routerLayer)) {
-                    map.addLayer(routerLayer)
-                } else if (map.hasLayer(routerLayer)) {
-                    map.removeLayer(routerLayer)
+            if (routesLayer != null && map != null) {
+                if (event.target.checked && !map.hasLayer(routesLayer)) {
+                    map.addLayer(routesLayer)
+                } else if (map.hasLayer(routesLayer)) {
+                    map.removeLayer(routesLayer)
                 }
             }
         }
 
         async function refreshData() {
-            const [from, till] = rangepicker.getDates();
-            const searchParams = new URLSearchParams();
-            searchParams.append("from", from.toISOString());
-            searchParams.append("till", till.toISOString());
+            const [from, till] = dateRangePicker.getDates()
+            const searchParams = new URLSearchParams()
+            searchParams.append("from", from.toISOString())
+            searchParams.append("till", till.toISOString())
             const res = await fetch("/api/mapon?" + searchParams.toString(), { credentials: 'include' })
             if (!res.ok) {
                 return showToast()
             }
-            let { stops, route } = await res.json()
-            stops = stops.map((point) => [point.lat, point.lng])
-            route = route.map((point) => [point.lat, point.lng])
-            const { latitude, longitude } = geolib.getCenterOfBounds(stops.map(([lat, lng]) => ({ latitude: lat, longitude: lng })))
-            map.setView([latitude, longitude], 5)
-            stopsLayer.clearLayers();
-            routerLayer.clearLayers();
-            stopsMarkers = stops.map(stop => L.marker(stop).addTo(stopsLayer));
-            routeLine = L.polyline(route, { color: 'red' }).addTo(routerLayer);
+            const bounds = []
+            let [{ stops, routes }] = await res.json()
+            if (stops.length > 0) {
+                stops = stops.map((point) => L.latLng(point))
+                stopsLayer.clearLayers()
+                map.fitBounds(stops.concat(routes))
+                stops.map(s => L.marker(s).addTo(stopsLayer))
+                bounds.push(...stops)
+            }
+            if (routes.length > 0) {
+                routes = routes.map(({ start, end }) => ({ start: L.latLng(start), end: L.latLng(end) }))
+                routesLayer.clearLayers()
+                const tracks = await Promise.all(routes.map(({ start, end }) => getRoute(start, end)))
+                tracksLines = tracks.map((rs) => L.routing.line(rs[0]))
+                tracksLines.forEach(r => r.addTo(routesLayer))
+                bounds.push(...routes.reduce((acc, { start, end }) => acc.concat(start, end), []))
+            }
+            if (bounds.length > 0) {
+                map.fitBounds(bounds)
+            }
+        }
+
+        function getRoute(start, end) {
+            return new Promise((resolve, reject) => {
+                router.route(
+                    [L.routing.waypoint(start), L.routing.waypoint(end)],
+                    function (err, routes) {
+                        if (err || !Array.isArray(routes) || routes.length < 1) {
+                            return reject(err)
+                        }
+                        resolve(routes)
+                    }
+                )
+            })
         }
 
         async function showToast() {

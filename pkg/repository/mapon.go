@@ -19,7 +19,7 @@ import (
 )
 
 type MaponRepository interface {
-	GetInfo(ctx context.Context, from, till time.Time) (*model.MaponInfo, error)
+	GetInfo(ctx context.Context, from, till time.Time) ([]*model.MaponRoute, error)
 }
 
 type maponRepository struct {
@@ -30,7 +30,7 @@ func NewMaponRespository(config *cfg.MaponConfig) MaponRepository {
 	return &maponRepository{MaponConfig: config}
 }
 
-func (r maponRepository) GetInfo(ctx context.Context, from, till time.Time) (*model.MaponInfo, error) {
+func (r maponRepository) GetInfo(ctx context.Context, from, till time.Time) ([]*model.MaponRoute, error) {
 	log := ctxt.GetLogger(ctx)
 	url := fmt.Sprintf("%s/%s", r.URL, r.Endpoints.Route)
 	req, err := http.NewRequest("GET", url, nil)
@@ -68,22 +68,30 @@ func (r maponRepository) GetInfo(ctx context.Context, from, till time.Time) (*mo
 	if err := json.Unmarshal(bytes, routeDAO); err != nil {
 		return nil, errors.NewInternalServerError(err)
 	}
-	unit := routeDAO.Data.Units[0]
-	routes := unit.Routes
-	stopsPoints := make([]*geo.Point, 0)
-	routesPoints := make([]*geo.Point, 0)
-	for _, route := range routes {
-		switch route.Type {
-		case dao.Stop:
-			stopsPoints = append(stopsPoints, geo.NewPoint(*route.Start.Lat, *route.Start.Lng))
-		case dao.TypeRoute:
-			routesPoints = append(routesPoints, geo.NewPoint(*route.Start.Lat, *route.Start.Lng))
-			if route.End != nil {
-				routesPoints = append(routesPoints, geo.NewPoint(*route.End.Lat, *route.End.Lng))
+	maponRoutes := make([]*model.MaponRoute, 0)
+	if routeDAO == nil {
+		return maponRoutes, nil
+	}
+	for _, unit := range routeDAO.Data.Units {
+		routes := unit.Routes
+		stopsPoints := make([]*geo.Point, 0)
+		routesTrack := make([]*model.Track, 0)
+		for _, route := range routes {
+			switch route.Type {
+			case dao.Stop:
+				stopsPoints = append(stopsPoints, geo.NewPoint(*route.Start.Lat, *route.Start.Lng))
+			case dao.TypeRoute:
+				routeTrack := &model.Track{}
+				routeTrack.Start = geo.NewPoint(*route.Start.Lat, *route.Start.Lng)
+				if route.End != nil {
+					routeTrack.End = geo.NewPoint(*route.End.Lat, *route.End.Lng)
+				}
+				routesTrack = append(routesTrack, routeTrack)
 			}
 		}
+		maponRoutes = append(maponRoutes, &model.MaponRoute{Stops: stopsPoints, Routes: routesTrack})
 	}
-	return &model.MaponInfo{Stops: stopsPoints, Route: routesPoints}, nil
+	return maponRoutes, nil
 }
 
 func parseMaponError(body string) error {

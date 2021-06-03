@@ -44,17 +44,21 @@ func (c maponController) GetMaponInfo(rw http.ResponseWriter, r *http.Request) {
 		RenderError(r.Context(), rw, errors.NewBadRequestError("invalid 'till' query param"))
 		return
 	}
-	info, err := c.repo.GetInfo(r.Context(), from, till)
+	routes, err := c.repo.GetInfo(r.Context(), from, till)
 	if err != nil {
 		RenderError(r.Context(), rw, err)
 		return
 	}
-	infoDTO := &dto.MaponInfo{}
-	if err := copier.Copy(infoDTO, info); err != nil {
-		RenderError(r.Context(), rw, err)
-		return
+	routesDTO := make([]*dto.MaponRoute, 0)
+	for _, route := range routes {
+		routeDTO := &dto.MaponRoute{}
+		if err := copier.Copy(routeDTO, route); err != nil {
+			RenderError(r.Context(), rw, errors.NewInternalServerError(err))
+			return
+		}
+		routesDTO = append(routesDTO, routeDTO)
 	}
-	body, err := json.Marshal(infoDTO)
+	body, err := json.Marshal(routesDTO)
 	if err != nil {
 		RenderError(r.Context(), rw, err)
 		return
