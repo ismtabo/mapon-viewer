@@ -11,6 +11,7 @@ import (
 	"github.com/rs/zerolog/log"
 )
 
+// PagesController impelements HTTP controller for web pages requests.
 type PagesController interface {
 	StaticFiles(w http.ResponseWriter, r *http.Request)
 	IndexPage(w http.ResponseWriter, r *http.Request)
@@ -19,13 +20,15 @@ type PagesController interface {
 
 type pagesController struct {
 	sessions *sessions.Sessions
-	template template.TemplateManager
+	template template.Manager
 }
 
-func NewPagesController(sessions *sessions.Sessions, template template.TemplateManager) PagesController {
+// NewPagesController creates a new instance of PagesController.
+func NewPagesController(sessions *sessions.Sessions, template template.Manager) PagesController {
 	return &pagesController{sessions: sessions, template: template}
 }
 
+// StaticFiles returns statics files of web application.
 func (c *pagesController) StaticFiles(w http.ResponseWriter, r *http.Request) {
 	filePath := r.URL.Path
 	filePath = strings.Replace(filePath, "/static/", "", 1)
@@ -40,6 +43,7 @@ func (c *pagesController) StaticFiles(w http.ResponseWriter, r *http.Request) {
 	w.Write(file)
 }
 
+// IndexPage returns HTML index page.
 func (c *pagesController) IndexPage(w http.ResponseWriter, r *http.Request) {
 	if auth, _ := c.sessions.Start(w, r).GetBoolean(authAttribute); !auth {
 		http.Redirect(w, r, "/login", http.StatusFound)
@@ -53,6 +57,7 @@ func (c *pagesController) IndexPage(w http.ResponseWriter, r *http.Request) {
 	w.Write(body)
 }
 
+// LoginPage returns HTML login page.
 func (c *pagesController) LoginPage(w http.ResponseWriter, r *http.Request) {
 	if auth, _ := c.sessions.Start(w, r).GetBoolean(authAttribute); auth {
 		http.Redirect(w, r, "/", http.StatusFound)

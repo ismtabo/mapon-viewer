@@ -4,9 +4,10 @@ import (
 	"net/http"
 )
 
-// Code represents the
+// ErrorCode represents different application error codes.
 type ErrorCode string
 
+// Enumerated values for ErrorCode
 const (
 	ServerErrorCode       = ErrorCode("server_error")
 	BadRequestErrorCode   = ErrorCode("bad_request")
@@ -62,7 +63,7 @@ func NewBadRequestError(message string) *Error {
 	}
 }
 
-// NewNotFoundError create a new application error with status 404
+// NewUnauthorizedError create a new application error with status 401
 func NewUnauthorizedError() *Error {
 	return &Error{
 		StatusCode: http.StatusUnauthorized,

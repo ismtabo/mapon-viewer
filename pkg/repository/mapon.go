@@ -18,6 +18,7 @@ import (
 	geo "github.com/kellydunn/golang-geo"
 )
 
+// MaponRepository implements a repository for Mapon data.
 type MaponRepository interface {
 	GetInfo(ctx context.Context, from, till time.Time) ([]*model.MaponRoute, error)
 }
@@ -26,6 +27,8 @@ type maponRepository struct {
 	*cfg.MaponConfig
 }
 
+// NewMaponRespository creates a new instance of MaponRepository with a given
+// configuration for Mapon API Rest connection.
 func NewMaponRespository(config *cfg.MaponConfig) MaponRepository {
 	return &maponRepository{MaponConfig: config}
 }

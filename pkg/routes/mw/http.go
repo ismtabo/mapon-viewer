@@ -64,7 +64,7 @@ func MethodsHandler(methods ...string) func(next http.Handler) http.Handler {
 }
 
 // SecurityHandler is a middleware to filter incoming HTTP request returning 401 if not authenticated.
-func SecurityHandler(securitySvc service.SecurityService) func(next http.Handler) http.Handler {
+func SecurityHandler(securitySvc service.SessionsService) func(next http.Handler) http.Handler {
 	return func(next http.Handler) http.Handler {
 		return http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {
 			if !securitySvc.IsAuthenticated(rw, r) {

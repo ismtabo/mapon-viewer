@@ -19,13 +19,13 @@ type routes struct {
 	maponCtrl controller.MaponController
 	pagesCtrl controller.PagesController
 	userCtrl  controller.UserController
-	secSvc    service.SecurityService
+	secSvc    service.SessionsService
 	log       *zerolog.Logger
 	mux       *http.ServeMux
 }
 
 // NewRoutes creates a new instance of Routes.
-func NewRoutes(userCtrl controller.UserController, pagesCtrl controller.PagesController, maponCtrl controller.MaponController, secSvc service.SecurityService, log *zerolog.Logger) Routes {
+func NewRoutes(userCtrl controller.UserController, pagesCtrl controller.PagesController, maponCtrl controller.MaponController, secSvc service.SessionsService, log *zerolog.Logger) Routes {
 	return &routes{maponCtrl: maponCtrl, pagesCtrl: pagesCtrl, userCtrl: userCtrl, secSvc: secSvc, log: log}
 }
 

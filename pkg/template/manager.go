@@ -7,16 +7,16 @@ import (
 	"path"
 )
 
-// TemplateManager implements a html template management.
-type TemplateManager interface {
+// Manager implements a html template management.
+type Manager interface {
 	StaticFiles(file string) ([]byte, error)
 	RenderFile(file string, data interface{}) ([]byte, error)
 }
 
 type templateManager struct{}
 
-// NewTemplateManager creates a new instance of a TemplateManager.
-func NewTemplateManager() TemplateManager {
+// NewTemplateManager creates a new instance of a Manager.
+func NewTemplateManager() Manager {
 	return &templateManager{}
 }
 

@@ -11,8 +11,10 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+// ServerSteps add golium steps for ATs.
 type ServerSteps struct{}
 
+// InitializeSteps add steps additional godog steps.
 func (s ServerSteps) InitializeSteps(ctx context.Context, scenCtx *godog.ScenarioContext) context.Context {
 	// Retrieve HTTP session
 	session := http.GetSession(ctx)
@@ -72,6 +74,7 @@ func (s ServerSteps) InitializeSteps(ctx context.Context, scenCtx *godog.Scenari
 	return ctx
 }
 
+// ValidateResponseTextContent validates Http session response has the expected text body content.
 func ValidateResponseTextContent(ctx context.Context, expected string) error {
 	session := http.GetSession(ctx)
 	actual := string(session.Response.ResponseBody)

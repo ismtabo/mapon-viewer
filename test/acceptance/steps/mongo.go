@@ -12,8 +12,10 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
+// MongoSteps adds golium steps to interactuate with Mongo databases.
 type MongoSteps struct{}
 
+// InitializeSteps add steps additional godog steps.
 func (s MongoSteps) InitializeSteps(ctx context.Context, scenCtx *godog.ScenarioContext) context.Context {
 	// Retrieve HTTP session
 	var client *mongo.Client

@@ -11,6 +11,7 @@ import (
 	"github.com/jinzhu/copier"
 )
 
+// MaponController implements HTTP controller for Mapon requests.
 type MaponController interface {
 	GetMaponInfo(rw http.ResponseWriter, r *http.Request)
 }
@@ -19,10 +20,12 @@ type maponController struct {
 	repo repository.MaponRepository
 }
 
+// NewMaponController creates a instance of MaponController.
 func NewMaponController(repo repository.MaponRepository) MaponController {
 	return &maponController{repo: repo}
 }
 
+// GetMaponInfo returns Mapon information for given time range.
 func (c maponController) GetMaponInfo(rw http.ResponseWriter, r *http.Request) {
 	f := r.URL.Query().Get("from")
 	if f == "" {

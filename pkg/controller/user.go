@@ -21,11 +21,11 @@ type UserController interface {
 
 type userController struct {
 	userSvc     service.UserService
-	securitySvc service.SecurityService
+	securitySvc service.SessionsService
 }
 
 // NewUserController creates a new instance of UserController.
-func NewUserController(userSvc service.UserService, securitySvc service.SecurityService) UserController {
+func NewUserController(userSvc service.UserService, securitySvc service.SessionsService) UserController {
 	return &userController{userSvc: userSvc, securitySvc: securitySvc}
 }
 
