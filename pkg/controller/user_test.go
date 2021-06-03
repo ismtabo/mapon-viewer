@@ -26,7 +26,7 @@ func TestUserControllerLogin(t *testing.T) {
 	defer ctrl.Finish()
 	userSvc := mockSvcs.NewMockUserService(ctrl)
 	ssns := sessions.New(sessions.Config{Cookie: sessionsCookie})
-	securitySvc := service.NewSecurityService(ssns)
+	securitySvc := service.NewSessionsService(ssns)
 	userCtrl := controller.NewUserController(userSvc, securitySvc)
 	t.Run("Test UserController correct login", func(t *testing.T) {
 		rw := httptest.NewRecorder()
@@ -108,7 +108,7 @@ func TestUserControllerLogout(t *testing.T) {
 	defer ctrl.Finish()
 	userSvc := mockSvcs.NewMockUserService(ctrl)
 	ssns := sessions.New(sessions.Config{Cookie: sessionsCookie})
-	securitySvc := service.NewSecurityService(ssns)
+	securitySvc := service.NewSessionsService(ssns)
 	userCtrl := controller.NewUserController(userSvc, securitySvc)
 	t.Run("Test UserController correct logout", func(t *testing.T) {
 		rw := httptest.NewRecorder()
@@ -138,7 +138,7 @@ func TestUserControllerRegister(t *testing.T) {
 	defer ctrl.Finish()
 	userSvc := mockSvcs.NewMockUserService(ctrl)
 	ssns := sessions.New(sessions.Config{Cookie: sessionsCookie})
-	securitySvc := service.NewSecurityService(ssns)
+	securitySvc := service.NewSessionsService(ssns)
 	userCtrl := controller.NewUserController(userSvc, securitySvc)
 	t.Run("Test UserController correct register", func(t *testing.T) {
 		rw := httptest.NewRecorder()

@@ -4,7 +4,10 @@ import (
 	"bytes"
 	"html/template"
 	"io/ioutil"
+	"os"
 	"path"
+
+	"github.com/ismtabo/mapon-viewer/pkg/errors"
 )
 
 // Manager implements a html template management.
@@ -22,7 +25,14 @@ func NewTemplateManager() Manager {
 
 // StaticFiles returns index html.
 func (m templateManager) StaticFiles(file string) ([]byte, error) {
-	return ioutil.ReadFile(path.Join("client", "assets", file))
+	bytes, err := ioutil.ReadFile(path.Join("client", "assets", file))
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, errors.NewNotFoundError()
+		}
+		return nil, errors.NewInternalServerError(err)
+	}
+	return bytes, nil
 }
 
 // RenderBlockedAccessPage returns index html.

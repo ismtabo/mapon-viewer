@@ -32,7 +32,7 @@ func TestSecurityHandler(t *testing.T) {
 	ssns := sessions.New(sessions.Config{
 		Cookie: uuid.NewString(),
 	})
-	secSvc := service.NewSecurityService(ssns)
+	secSvc := service.NewSessionsService(ssns)
 	handler := mw.SecurityHandler(secSvc)(http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {}))
 	t.Run("Test SecurityHandler", func(t *testing.T) {
 		rw := httptest.NewRecorder()

@@ -19,8 +19,8 @@ type sessionsSecurityService struct {
 	ssns *sessions.Sessions
 }
 
-// NewSecurityService creates a new instance of SessionsService.
-func NewSecurityService(ssns *sessions.Sessions) SessionsService {
+// NewSessionsService creates a new instance of SessionsService.
+func NewSessionsService(ssns *sessions.Sessions) SessionsService {
 	return &sessionsSecurityService{ssns: ssns}
 }
 

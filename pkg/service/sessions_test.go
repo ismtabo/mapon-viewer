@@ -13,7 +13,7 @@ import (
 func TestSecurityService(t *testing.T) {
 	ssnCookie := t.Name()
 	ssns := sessions.New(sessions.Config{Cookie: ssnCookie})
-	secSvc := service.NewSecurityService(ssns)
+	secSvc := service.NewSessionsService(ssns)
 	t.Run("Test SecurityService Login", func(t *testing.T) {
 		rw := httptest.NewRecorder()
 		r := httptest.NewRequest("POST", "/", nil)

@@ -7,8 +7,6 @@ import (
 	"github.com/ismtabo/mapon-viewer/pkg/service"
 )
 
-const authAttribute = "authenticated"
-
 // UserController implements an HTTP Controller for users endpoints.
 type UserController interface {
 	// LoginUser logs in an user in the application

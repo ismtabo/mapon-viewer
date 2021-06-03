@@ -6,8 +6,8 @@ import (
 	"path"
 	"strings"
 
+	"github.com/ismtabo/mapon-viewer/pkg/service"
 	"github.com/ismtabo/mapon-viewer/pkg/template"
-	"github.com/kataras/go-sessions/v3"
 	"github.com/rs/zerolog/log"
 )
 
@@ -19,20 +19,20 @@ type PagesController interface {
 }
 
 type pagesController struct {
-	sessions *sessions.Sessions
-	template template.Manager
+	ssnsSvc  service.SessionsService
+	tmplMngr template.Manager
 }
 
 // NewPagesController creates a new instance of PagesController.
-func NewPagesController(sessions *sessions.Sessions, template template.Manager) PagesController {
-	return &pagesController{sessions: sessions, template: template}
+func NewPagesController(ssnsSvc service.SessionsService, tmplMngr template.Manager) PagesController {
+	return &pagesController{ssnsSvc: ssnsSvc, tmplMngr: tmplMngr}
 }
 
 // StaticFiles returns statics files of web application.
 func (c *pagesController) StaticFiles(w http.ResponseWriter, r *http.Request) {
 	filePath := r.URL.Path
 	filePath = strings.Replace(filePath, "/static/", "", 1)
-	file, err := c.template.StaticFiles(filePath)
+	file, err := c.tmplMngr.StaticFiles(filePath)
 	if err != nil {
 		RenderError(r.Context(), w, err)
 		return
@@ -45,11 +45,11 @@ func (c *pagesController) StaticFiles(w http.ResponseWriter, r *http.Request) {
 
 // IndexPage returns HTML index page.
 func (c *pagesController) IndexPage(w http.ResponseWriter, r *http.Request) {
-	if auth, _ := c.sessions.Start(w, r).GetBoolean(authAttribute); !auth {
+	if !c.ssnsSvc.IsAuthenticated(w, r) {
 		http.Redirect(w, r, "/login", http.StatusFound)
 		return
 	}
-	body, err := c.template.RenderFile("index.html", nil)
+	body, err := c.tmplMngr.RenderFile("index.html", nil)
 	if err != nil {
 		RenderError(r.Context(), w, err)
 		return
@@ -59,11 +59,11 @@ func (c *pagesController) IndexPage(w http.ResponseWriter, r *http.Request) {
 
 // LoginPage returns HTML login page.
 func (c *pagesController) LoginPage(w http.ResponseWriter, r *http.Request) {
-	if auth, _ := c.sessions.Start(w, r).GetBoolean(authAttribute); auth {
+	if c.ssnsSvc.IsAuthenticated(w, r) {
 		http.Redirect(w, r, "/", http.StatusFound)
 		return
 	}
-	body, err := c.template.RenderFile("login.html", nil)
+	body, err := c.tmplMngr.RenderFile("login.html", nil)
 	if err != nil {
 		RenderError(r.Context(), w, err)
 		return
